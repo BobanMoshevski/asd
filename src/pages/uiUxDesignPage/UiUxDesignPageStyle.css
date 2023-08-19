@@ -1,0 +1,74 @@
+@media screen and (max-width: 1441px) {
+  .ui-ux-design-figure {
+    margin-left: -80% !important;
+  }
+
+  .ui-ux-design-img {
+    width: 1200px !important;
+    height: 500px !important;
+    margin-left: -12% !important;
+    margin-top: -80px !important;
+  }
+
+  .ui-ux-design-text {
+    margin-top: -400px !important;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .ui-ux-design-figure {
+    margin-left: -110% !important;
+  }
+
+  .ui-ux-design-heading {
+    margin-left: 27% !important;
+  }
+
+  .ui-ux-design-img {
+    margin-left: -15% !important;
+  }
+
+  .ui-ux-design-text {
+    width: 80% !important;
+    margin-left: 10% !important;
+    margin-top: 10px !important;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .ui-ux-design-figure {
+    margin-left: -150% !important;
+  }
+
+  .ui-ux-design-heading {
+    margin-left: 36% !important;
+  }
+
+  .ui-ux-design-img {
+    margin-left: -27% !important;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .ui-ux-design-figure {
+    width: 1000px !important;
+    height: 600px !important;
+    margin-left: -145% !important;
+  }
+
+  .ui-ux-design-heading {
+    margin-left: 27% !important;
+    margin-top: -470px !important;
+  }
+
+  .ui-ux-design-img {
+    width: 600px !important;
+    height: 300px !important;
+    margin-left: -22% !important;
+    margin-top: -40px !important;
+  }
+
+  .ui-ux-design-text {
+    margin-top: 50px !important;
+  }
+}

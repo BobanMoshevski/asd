@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #191919;
+  font-family: "Futura New", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+.font-color {
+  color: #fff;
+}
+
+/* Media queris */
+@media screen and (max-width: 1391px) {
+  .figures-animate {
+    min-height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .heading {
+    font-size: 1.8rem !important;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .heading {
+    font-size: 1.6rem !important;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .heading {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* Key frames figures */
+@keyframes homeTopFigure1 {
+  from {
+    transform: translateX(-1000px);
+  }
+  to {
+    transform: translateX(820px);
+  }
+}
+
+@keyframes homeTopFigure2 {
+  from {
+    transform: translateX(-1200px);
+  }
+  to {
+    transform: translateX(1300px);
+  }
+}
+
+@keyframes homeTopFigure3 {
+  from {
+    transform: translateY(-3100px);
+  }
+  to {
+    transform: translateY(1290px);
+  }
+}
+
+@keyframes homeTopFigure4 {
+  from {
+    transform: translateY(-300px);
+  }
+  to {
+    transform: translateY(-2700px);
+  }
+}
+
+@keyframes homeTopFigure5 {
+  from {
+    transform: translateX(1820px);
+  }
+  to {
+    transform: translateX(-1000px);
+  }
+}
