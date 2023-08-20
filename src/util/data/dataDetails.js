@@ -18,27 +18,129 @@ export const appBarLinks = [
 // Home page (top figures)
 export const homeTopFigures = [
   {
-    imageClassName: "homeTopFigure1",
+    divVariant: {
+      hidden: {
+        opacity: 0,
+      },
+      visible: {
+        opacity: 1,
+        transition: { duration: 1.5, delay: 2 },
+      },
+    },
+    figureVariant: {
+      hidden: {
+        x: -500,
+      },
+      visible: {
+        x: 0,
+        transition: {
+          duration: 1.5,
+          delay: 3.5,
+        },
+      },
+    },
+    divClassName: "home-top-figure1",
+    imageClassName: "figure1-img",
     imageSrc: require("../../images/cyborpixel-03.png"),
     imageAlt: "Home top figure 1",
   },
   {
-    imageClassName: "homeTopFigure2",
+    divVariant: {
+      hidden: {
+        opacity: 0,
+      },
+      visible: {
+        opacity: 1,
+        transition: { duration: 1.5, delay: 2 },
+      },
+    },
+    figureVariant: {
+      hidden: {
+        x: -1200,
+      },
+      visible: {
+        x: 0,
+        transition: {
+          duration: 1.5,
+          delay: 3.5,
+        },
+      },
+    },
+    divClassName: "home-top-figure2",
+    imageClassName: "figure2-img",
     imageSrc: require("../../images/shape1-01.png"),
     imageAlt: "Home top figure 2",
   },
   {
-    imageClassName: "homeTopFigure3",
+    divVariant: {
+      hidden: {
+        opacity: 1,
+      },
+      visible: {
+        opacity: 0,
+        transition: { duration: 1.5, delay: 1 },
+      },
+    },
+    figureVariant: {
+      hidden: {
+        y: -750,
+      },
+      visible: {
+        y: 0,
+        transition: {
+          duration: 1.5,
+          delay: 3.5,
+        },
+      },
+    },
+    divClassName: "home-top-figure3",
+    imageClassName: "figure3-img",
     imageSrc: require("../../images/cyborpixel-07.png"),
     imageAlt: "Home top figure 3",
   },
   {
-    imageClassName: "homeTopFigure4",
+    divVariant: {
+      hidden: {
+        opacity: 1,
+      },
+      visible: {
+        opacity: 0,
+        transition: { duration: 1.5, delay: 3 },
+      },
+    },
+    figureVariant: {
+      hidden: {
+        y: 850,
+      },
+      visible: {
+        y: 0,
+
+        transition: {
+          duration: 2,
+          delay: 3.5,
+        },
+      },
+    },
+    divClassName: "home-top-figure4",
+    imageClassName: "figure4-img",
     imageSrc: require("../../images/cyborpixel-06.png"),
     imageAlt: "Home top figure 4",
   },
   {
-    imageClassName: "homeTopFigure5",
+    figureVariant: {
+      hidden: {
+        x: 650,
+      },
+      visible: {
+        x: 0,
+        transition: {
+          duration: 1.5,
+          delay: 3.5,
+        },
+      },
+    },
+    divClassName: "home-top-figure5",
+    imageClassName: "figure5-img",
     imageSrc: require("../../images/cyborpixel-05.png"),
     imageAlt: "Home top figure 5",
   },
