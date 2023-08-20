@@ -34,8 +34,8 @@ export const homeTopFigures = [
       visible: {
         x: 0,
         transition: {
-          duration: 1.5,
-          delay: 3.5,
+          duration: 2.5,
+          delay: 1.5,
         },
       },
     },
@@ -61,8 +61,8 @@ export const homeTopFigures = [
       visible: {
         x: 0,
         transition: {
-          duration: 1.5,
-          delay: 3.5,
+          duration: 2.5,
+          delay: 1.5,
         },
       },
     },
@@ -74,11 +74,11 @@ export const homeTopFigures = [
   {
     divVariant: {
       hidden: {
-        opacity: 1,
+        opacity: 0,
       },
       visible: {
-        opacity: 0,
-        transition: { duration: 1.5, delay: 1 },
+        opacity: 1,
+        transition: { duration: 1.5, delay: 2 },
       },
     },
     figureVariant: {
@@ -88,8 +88,8 @@ export const homeTopFigures = [
       visible: {
         y: 0,
         transition: {
-          duration: 1.5,
-          delay: 3.5,
+          duration: 2.5,
+          delay: 1.5,
         },
       },
     },
@@ -101,11 +101,11 @@ export const homeTopFigures = [
   {
     divVariant: {
       hidden: {
-        opacity: 1,
+        opacity: 0,
       },
       visible: {
-        opacity: 0,
-        transition: { duration: 1.5, delay: 3 },
+        opacity: 1,
+        transition: { duration: 1.5, delay: 2 },
       },
     },
     figureVariant: {
@@ -114,10 +114,9 @@ export const homeTopFigures = [
       },
       visible: {
         y: 0,
-
         transition: {
-          duration: 2,
-          delay: 3.5,
+          duration: 2.5,
+          delay: 1.5,
         },
       },
     },
@@ -127,6 +126,15 @@ export const homeTopFigures = [
     imageAlt: "Home top figure 4",
   },
   {
+    divVariant: {
+      hidden: {
+        opacity: 0,
+      },
+      visible: {
+        opacity: 1,
+        transition: { duration: 1.5, delay: 2 },
+      },
+    },
     figureVariant: {
       hidden: {
         x: 650,
@@ -134,8 +142,8 @@ export const homeTopFigures = [
       visible: {
         x: 0,
         transition: {
-          duration: 1.5,
-          delay: 3.5,
+          duration: 2.5,
+          delay: 1.5,
         },
       },
     },
