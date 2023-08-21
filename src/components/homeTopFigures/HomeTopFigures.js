@@ -9,20 +9,16 @@ const HomeTopFigures = () => {
     <div id="home">
       <div className="figures-animate">
         {topFigures.map((figure, index) => (
-          <motion.div
-            variants={figure.figureVariant}
-            initial="hidden"
-            animate="visible"
-            key={index}
-            className={figure.divClassName}
-          >
+          <div key={index} className={figure.divClassName}>
             <motion.img
-              variants={figure.figureVariant}
+              variants={figure.divVariant}
+              initial="hidden"
+              whileInView="visible"
               className={figure.imageClassName}
               src={figure.imageSrc}
               alt={figure.imageAlt}
             />
-          </motion.div>
+          </div>
         ))}
       </div>
     </div>

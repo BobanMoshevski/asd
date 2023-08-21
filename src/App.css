@@ -15,8 +15,16 @@ body {
   scroll-behavior: smooth;
 } */
 
+.heading {
+  font-size: 2.2rem !important;
+}
+
 .font-color {
   color: #fff;
+}
+
+.text-font {
+  font-size: 1.5rem;
 }
 
 /* Media queris */

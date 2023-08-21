@@ -1,4 +1,3 @@
-import { Box } from "@mui/material";
 import {
   whatMakesUsFigure,
   whatMakesUsHeading,
@@ -7,6 +6,7 @@ import {
 import FigureComponent from "../figureComponent/FigureComponent";
 import HeadingComponent from "../headingComponent/HeadingComponent";
 import WhatMakesUsText from "../whatMakesUsText/WhatMakesUsText";
+import "./WhatMakesUsStyle.css";
 
 const WhatMakesUs = () => {
   const figureDetail = whatMakesUsFigure;
@@ -14,20 +14,25 @@ const WhatMakesUs = () => {
   const textDetail = whatMakesUsText;
 
   return (
-    <Box
-      sx={{
-        overflow: "hidden",
-        width: "100%",
-        minHeight: "100vh",
-        position: "absolute",
-      }}
-    >
-      <FigureComponent figureDetails={figureDetail} />
+    <div>
+      <div
+        style={{
+          position: "absolute",
+          width: "100%",
+          minHeight: "100vh",
+          overflow: "hidden",
+          marginTop: "600px",
+        }}
+      >
+        <div className={figureDetail.divClassName}>
+          <FigureComponent figureDetails={figureDetail} />
+        </div>
 
-      <HeadingComponent idScroll={"about"} headingDetails={headingDetail} />
+        <HeadingComponent idScroll={"about"} headingDetails={headingDetail} />
 
-      <WhatMakesUsText textDetails={textDetail} />
-    </Box>
+        <WhatMakesUsText textDetails={textDetail} />
+      </div>
+    </div>
   );
 };
 

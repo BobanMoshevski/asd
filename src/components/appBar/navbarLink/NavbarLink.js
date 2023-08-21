@@ -61,7 +61,7 @@ const NavbarLink = ({ navbarLink, isDrawerOpen, setIsDrawerOpen, classes }) => {
   return (
     <>
       {HomePage.pathname === "/" && isHome && (
-        <Link to="home" spy={true} smooth={true} offset={-150} duration={8000}>
+        <Link to="home" spy={true} smooth={true} offset={-300} duration={3000}>
           {navbarLink}
         </Link>
 
@@ -77,7 +77,7 @@ const NavbarLink = ({ navbarLink, isDrawerOpen, setIsDrawerOpen, classes }) => {
       )}
 
       {HomePage.pathname === "/" && isAboutUs && (
-        <Link to="about" spy={true} smooth={true} offset={-150} duration={8000}>
+        <Link to="about" spy={true} smooth={true} offset={-150} duration={2000}>
           {navbarLink}
         </Link>
         // <a className="nav-link" href="about" onClick={handleScroll}>
@@ -97,7 +97,7 @@ const NavbarLink = ({ navbarLink, isDrawerOpen, setIsDrawerOpen, classes }) => {
           spy={true}
           smooth={true}
           offset={-150}
-          duration={8000}
+          duration={2000}
         >
           {navbarLink}
         </Link>

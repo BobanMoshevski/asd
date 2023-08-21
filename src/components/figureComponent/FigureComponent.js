@@ -10,12 +10,6 @@ const FigureComponent = ({ figureDetails }) => {
       src={figureDetails.figureImgSrc}
       alt={figureDetails.figureImgAlt}
       className={figureDetails.figureImgClassName}
-      style={{
-        width: figureDetails.figureImgWidth,
-        height: figureDetails.figureImgHeight,
-        marginLeft: figureDetails.figureImgMarginLeft,
-        marginTop: figureDetails.figureImgMarginTop,
-      }}
     />
   );
 };

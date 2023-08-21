@@ -1,4 +1,3 @@
-import { Box } from "@mui/material";
 import {
   cardsDetail,
   ourServicesFigure,
@@ -7,6 +6,7 @@ import {
 import FigureComponent from "../figureComponent/FigureComponent";
 import HeadingComponent from "../headingComponent/HeadingComponent";
 import OurServicesCards from "../ourServicesCards/OurServicesCards";
+import "./OurServicesStyle.css";
 
 const OurServices = () => {
   const figureDetail = ourServicesFigure;
@@ -14,21 +14,23 @@ const OurServices = () => {
   const cardsDetails = cardsDetail;
 
   return (
-    <Box
-      sx={{
-        overflow: "hidden",
+    <div
+      style={{
+        position: "absolute",
         width: "100%",
         minHeight: "100vh",
-        position: "absolute",
-        zIndex: "2",
+        overflow: "hidden",
+        marginTop: "1200px",
       }}
     >
-      <FigureComponent figureDetails={figureDetail} />
+      <div className={figureDetail.divClassName}>
+        <FigureComponent figureDetails={figureDetail} />
+      </div>
 
-      <HeadingComponent headingDetails={headingDetail} idScroll={"services"} />
+      <HeadingComponent idScroll={"services"} headingDetails={headingDetail} />
 
       <OurServicesCards cardsDetails={cardsDetails} />
-    </Box>
+    </div>
   );
 };
 

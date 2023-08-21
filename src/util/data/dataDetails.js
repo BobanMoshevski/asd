@@ -21,22 +21,12 @@ export const homeTopFigures = [
     divVariant: {
       hidden: {
         opacity: 0,
+        x: -100,
       },
       visible: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 2 },
-      },
-    },
-    figureVariant: {
-      hidden: {
-        x: -500,
-      },
-      visible: {
-        x: 0,
-        transition: {
-          duration: 2.5,
-          delay: 1.5,
-        },
+        x: [-100, 0],
+        transition: { duration: 3, delay: 3 },
       },
     },
     divClassName: "home-top-figure1",
@@ -48,22 +38,12 @@ export const homeTopFigures = [
     divVariant: {
       hidden: {
         opacity: 0,
+        x: -200,
       },
       visible: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 2 },
-      },
-    },
-    figureVariant: {
-      hidden: {
-        x: -1200,
-      },
-      visible: {
         x: 0,
-        transition: {
-          duration: 2.5,
-          delay: 1.5,
-        },
+        transition: { duration: 3, delay: 3 },
       },
     },
     divClassName: "home-top-figure2",
@@ -75,22 +55,12 @@ export const homeTopFigures = [
     divVariant: {
       hidden: {
         opacity: 0,
+        y: -500,
       },
       visible: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 2 },
-      },
-    },
-    figureVariant: {
-      hidden: {
-        y: -750,
-      },
-      visible: {
         y: 0,
-        transition: {
-          duration: 2.5,
-          delay: 1.5,
-        },
+        transition: { duration: 3, delay: 3 },
       },
     },
     divClassName: "home-top-figure3",
@@ -102,22 +72,12 @@ export const homeTopFigures = [
     divVariant: {
       hidden: {
         opacity: 0,
-      },
-      visible: {
-        opacity: 1,
-        transition: { duration: 1.5, delay: 2 },
-      },
-    },
-    figureVariant: {
-      hidden: {
         y: 850,
       },
       visible: {
+        opacity: 1,
         y: 0,
-        transition: {
-          duration: 2.5,
-          delay: 1.5,
-        },
+        transition: { duration: 3, delay: 3 },
       },
     },
     divClassName: "home-top-figure4",
@@ -129,22 +89,12 @@ export const homeTopFigures = [
     divVariant: {
       hidden: {
         opacity: 0,
+        x: 100,
       },
       visible: {
         opacity: 1,
-        transition: { duration: 1.5, delay: 2 },
-      },
-    },
-    figureVariant: {
-      hidden: {
-        x: 650,
-      },
-      visible: {
         x: 0,
-        transition: {
-          duration: 2.5,
-          delay: 1.5,
-        },
+        transition: { duration: 3, delay: 3 },
       },
     },
     divClassName: "home-top-figure5",
@@ -159,44 +109,40 @@ export const whatMakesUsFigure = {
   figureVariant: {
     hidden: {
       opacity: 0,
-      x: -200,
+      x: -300,
     },
     visible: {
       opacity: 1,
-      x: -100,
+      x: 0,
       transition: {
-        duration: 1.5,
+        duration: 2,
+        delay: 0.8,
       },
     },
   },
-  figureImgClassName: "what-makes-figure",
+  divClassName: "what-makes-figure",
+  figureImgClassName: "what-makes-figure-img",
   figureImgSrc: require("../../images/cyborpixel-08.png"),
   figureImgAlt: "What makes us Figure",
-  figureImgWidth: "2200px",
-  figureImgHeight: "800px",
-  figureImgMarginLeft: "-38%",
-  figureImgMarginTop: "950px",
 };
 
 export const whatMakesUsHeading = {
   headingVariant: {
     hidden: {
       opacity: 0,
-      x: 0,
+      x: 300,
     },
     visible: {
       opacity: 1,
-      x: -100,
+      x: 0,
       transition: {
-        duration: 1.5,
+        duration: 2.5,
+        delay: 0.8,
       },
     },
   },
   headingClassName: "heading font-color what-makes-heading",
   heading: "WHAT MAKES US DIFFERENT MAKES US BETTER",
-  headingMarginLeft: "13.5%",
-  headingMarginTop: "-500px",
-  headingMarginBottom: "350px",
 };
 
 export const whatMakesUsText = {
@@ -211,7 +157,7 @@ export const ourServicesFigure = {
   figureVariant: {
     hidden: {
       opacity: 0,
-      x: 190,
+      x: 290,
     },
     visible: {
       opacity: 1,
@@ -221,13 +167,10 @@ export const ourServicesFigure = {
       },
     },
   },
-  figureImgClassName: "our-services-figure",
+  divClassName: "our-services-figure",
+  figureImgClassName: "our-services-figure-img",
   figureImgSrc: require("../../images/cyborpixel-17.png"),
   figureImgAlt: "Our services figure",
-  figureImgWidth: "1700px",
-  figureHeight: "400px",
-  figureImgMarginLeft: "36%",
-  figureImgMarginTop: "1400px",
 };
 
 export const ourServicesHeading = {

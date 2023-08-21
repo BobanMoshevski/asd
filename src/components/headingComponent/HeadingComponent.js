@@ -1,28 +1,17 @@
 import { motion } from "framer-motion";
-import { Typography } from "@mui/material";
 import "./HeadingComponentStyle.css";
 
 const HeadingComponent = ({ headingDetails, idScroll }) => {
   return (
-    <motion.div
+    <motion.h2
       variants={headingDetails.headingVariant}
       initial="hidden"
       whileInView="visible"
+      id={idScroll}
+      className={headingDetails.headingClassName}
     >
-      <Typography
-        id={idScroll}
-        className={headingDetails.headingClassName}
-        variant="h4"
-        component="h2"
-        sx={{
-          marginLeft: headingDetails.headingMarginLeft,
-          marginTop: headingDetails.headingMarginTop,
-          marginBottom: headingDetails.headingMarginBottom,
-        }}
-      >
-        {headingDetails.heading}
-      </Typography>
-    </motion.div>
+      {headingDetails.heading}
+    </motion.h2>
   );
 };
 
