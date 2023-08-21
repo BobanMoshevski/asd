@@ -106,20 +106,20 @@ export const homeTopFigures = [
 
 // Home page (what makes us component)
 export const whatMakesUsFigure = {
-  figureVariant: {
-    hidden: {
-      opacity: 0,
-      x: -300,
-    },
-    visible: {
-      opacity: 1,
-      x: 0,
-      transition: {
-        duration: 2,
-        delay: 0.8,
-      },
-    },
-  },
+  // figureVariant: {
+  //   hidden: {
+  //     opacity: 0,
+  //     x: -300,
+  //   },
+  //   visible: {
+  //     opacity: 1,
+  //     x: 0,
+  //     transition: {
+  //       duration: 2,
+  //       delay: 0.8,
+  //     },
+  //   },
+  // },
   divClassName: "what-makes-figure",
   figureImgClassName: "what-makes-figure-img",
   figureImgSrc: require("../../images/cyborpixel-08.png"),
@@ -127,20 +127,20 @@ export const whatMakesUsFigure = {
 };
 
 export const whatMakesUsHeading = {
-  headingVariant: {
-    hidden: {
-      opacity: 0,
-      x: 300,
-    },
-    visible: {
-      opacity: 1,
-      x: 0,
-      transition: {
-        duration: 2.5,
-        delay: 0.8,
-      },
-    },
-  },
+  // headingVariant: {
+  //   hidden: {
+  //     opacity: 0,
+  //     x: 300,
+  //   },
+  //   visible: {
+  //     opacity: 1,
+  //     x: 0,
+  //     transition: {
+  //       duration: 2.5,
+  //       delay: 0.8,
+  //     },
+  //   },
+  // },
   headingClassName: "heading font-color what-makes-heading",
   heading: "WHAT MAKES US DIFFERENT MAKES US BETTER",
 };

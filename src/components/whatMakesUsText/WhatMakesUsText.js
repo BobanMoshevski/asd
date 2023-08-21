@@ -16,9 +16,9 @@ const WhatMakesUsText = ({ textDetails }) => {
 
         <Grid item xs={10} lg={8}>
           <motion.p
-            initial={{ x: 300, opacity: 0 }}
-            whileInView={{ x: 20, opacity: 1 }}
-            transition={{ duration: 2, delay: 0.5 }}
+            // initial={{ x: 300, opacity: 0 }}
+            // whileInView={{ x: 20, opacity: 1 }}
+            // transition={{ duration: 2, delay: 0.5 }}
             className="font-color"
             style={{ marginTop: "80px", fontSize: "1.7rem" }}
           >

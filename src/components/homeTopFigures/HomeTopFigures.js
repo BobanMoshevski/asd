@@ -13,7 +13,7 @@ const HomeTopFigures = () => {
             <motion.img
               variants={figure.divVariant}
               initial="hidden"
-              whileInView="visible"
+              animate="visible"
               className={figure.imageClassName}
               src={figure.imageSrc}
               alt={figure.imageAlt}
