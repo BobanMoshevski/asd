@@ -14,24 +14,22 @@ const WhatMakesUs = () => {
   const textDetail = whatMakesUsText;
 
   return (
-    <div>
-      <div
-        style={{
-          position: "absolute",
-          width: "100%",
-          minHeight: "100vh",
-          overflow: "hidden",
-          marginTop: "600px",
-        }}
-      >
-        <div className={figureDetail.divClassName}>
-          <FigureComponent figureDetails={figureDetail} />
-        </div>
-
-        <HeadingComponent idScroll={"about"} headingDetails={headingDetail} />
-
-        <WhatMakesUsText textDetails={textDetail} />
+    <div
+      style={{
+        position: "absolute",
+        width: "100%",
+        minHeight: "100vh",
+        overflow: "hidden",
+        marginTop: "720px",
+      }}
+    >
+      <div className={figureDetail.divClassName}>
+        <FigureComponent figureDetails={figureDetail} />
       </div>
+
+      <HeadingComponent idScroll={"about"} headingDetails={headingDetail} />
+
+      <WhatMakesUsText textDetails={textDetail} />
     </div>
   );
 };

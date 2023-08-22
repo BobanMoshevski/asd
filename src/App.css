@@ -24,7 +24,8 @@ body {
 }
 
 .text-font {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 300;
 }
 
 /* Media queris */
@@ -55,10 +56,10 @@ body {
 /* Key frames figures */
 @keyframes homeTopFigure1 {
   from {
-    transform: translateX(-1000px);
+    transform: translateX(-500px);
   }
   to {
-    transform: translateX(820px);
+    transform: translateX(506px);
   }
 }
 
@@ -67,16 +68,16 @@ body {
     transform: translateX(-1200px);
   }
   to {
-    transform: translateX(1300px);
+    transform: translateX(1370px);
   }
 }
 
 @keyframes homeTopFigure3 {
   from {
-    transform: translateY(-3100px);
+    transform: translateY(-2100px);
   }
   to {
-    transform: translateY(1290px);
+    transform: translateY(-1090px);
   }
 }
 
@@ -85,7 +86,7 @@ body {
     transform: translateY(-300px);
   }
   to {
-    transform: translateY(-2700px);
+    transform: translateY(-1030px);
   }
 }
 

@@ -18,85 +18,30 @@ export const appBarLinks = [
 // Home page (top figures)
 export const homeTopFigures = [
   {
-    divVariant: {
-      hidden: {
-        opacity: 0,
-        x: -100,
-      },
-      visible: {
-        opacity: 1,
-        x: [-100, 0],
-        transition: { duration: 3, delay: 3 },
-      },
-    },
     divClassName: "home-top-figure1",
     imageClassName: "figure1-img",
     imageSrc: require("../../images/cyborpixel-03.png"),
     imageAlt: "Home top figure 1",
   },
   {
-    divVariant: {
-      hidden: {
-        opacity: 0,
-        x: -200,
-      },
-      visible: {
-        opacity: 1,
-        x: 0,
-        transition: { duration: 3, delay: 3 },
-      },
-    },
     divClassName: "home-top-figure2",
     imageClassName: "figure2-img",
     imageSrc: require("../../images/shape1-01.png"),
     imageAlt: "Home top figure 2",
   },
   {
-    divVariant: {
-      hidden: {
-        opacity: 0,
-        y: -500,
-      },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: { duration: 3, delay: 3 },
-      },
-    },
     divClassName: "home-top-figure3",
     imageClassName: "figure3-img",
     imageSrc: require("../../images/cyborpixel-07.png"),
     imageAlt: "Home top figure 3",
   },
   {
-    divVariant: {
-      hidden: {
-        opacity: 0,
-        y: 850,
-      },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: { duration: 3, delay: 3 },
-      },
-    },
     divClassName: "home-top-figure4",
     imageClassName: "figure4-img",
     imageSrc: require("../../images/cyborpixel-06.png"),
     imageAlt: "Home top figure 4",
   },
   {
-    divVariant: {
-      hidden: {
-        opacity: 0,
-        x: 100,
-      },
-      visible: {
-        opacity: 1,
-        x: 0,
-        transition: { duration: 3, delay: 3 },
-      },
-    },
     divClassName: "home-top-figure5",
     imageClassName: "figure5-img",
     imageSrc: require("../../images/cyborpixel-05.png"),
@@ -106,20 +51,6 @@ export const homeTopFigures = [
 
 // Home page (what makes us component)
 export const whatMakesUsFigure = {
-  // figureVariant: {
-  //   hidden: {
-  //     opacity: 0,
-  //     x: -300,
-  //   },
-  //   visible: {
-  //     opacity: 1,
-  //     x: 0,
-  //     transition: {
-  //       duration: 2,
-  //       delay: 0.8,
-  //     },
-  //   },
-  // },
   divClassName: "what-makes-figure",
   figureImgClassName: "what-makes-figure-img",
   figureImgSrc: require("../../images/cyborpixel-08.png"),
@@ -127,20 +58,6 @@ export const whatMakesUsFigure = {
 };
 
 export const whatMakesUsHeading = {
-  // headingVariant: {
-  //   hidden: {
-  //     opacity: 0,
-  //     x: 300,
-  //   },
-  //   visible: {
-  //     opacity: 1,
-  //     x: 0,
-  //     transition: {
-  //       duration: 2.5,
-  //       delay: 0.8,
-  //     },
-  //   },
-  // },
   headingClassName: "heading font-color what-makes-heading",
   heading: "WHAT MAKES US DIFFERENT MAKES US BETTER",
 };
@@ -154,19 +71,6 @@ export const whatMakesUsText = {
 
 // Home page (our services)
 export const ourServicesFigure = {
-  figureVariant: {
-    hidden: {
-      opacity: 0,
-      x: 290,
-    },
-    visible: {
-      opacity: 1,
-      x: 90,
-      transition: {
-        duration: 1.5,
-      },
-    },
-  },
   divClassName: "our-services-figure",
   figureImgClassName: "our-services-figure-img",
   figureImgSrc: require("../../images/cyborpixel-17.png"),
@@ -174,24 +78,8 @@ export const ourServicesFigure = {
 };
 
 export const ourServicesHeading = {
-  headingVariant: {
-    hidden: {
-      opacity: 0,
-      x: -100,
-    },
-    visible: {
-      opacity: 1,
-      x: 90,
-      transition: {
-        duration: 1.5,
-      },
-    },
-  },
   headingClassName: "heading font-color our-services-heading",
   heading: "OUR SERVICES",
-  headingMarginLeft: "56.5%",
-  headingMarginTop: "-380px",
-  headingMarginBottom: "150px",
 };
 
 export const cardsDetail = [
@@ -269,42 +157,13 @@ export const cardsDetail = [
 
 // Home page (why choose us component)
 export const whyChooseUsFigure = {
-  figureVariant: {
-    hidden: {
-      opacity: 0,
-      x: -100,
-    },
-    visible: {
-      opacity: 1,
-      x: 0,
-      transition: {
-        duration: 1.5,
-      },
-    },
-  },
-  figureImgClassName: "why-choose-figure",
+  divClassName: "why-choose-figure",
+  figureImgClassName: "why-choose-figure-img",
   figureImgSrc: require("../../images/cyborpixel-08.png"),
   figureImgAlt: "What makes us Figure",
-  figureImgWidth: "1800px",
-  figureImgHeight: "800px",
-  figureImgMarginLeft: "-35%",
-  figureImgMarginTop: "3000px",
 };
 
 export const whyChooseUsHeading = {
-  headingVariant: {
-    hidden: {
-      opacity: 0,
-      x: 100,
-    },
-    visible: {
-      opacity: 1,
-      x: 0,
-      transition: {
-        duration: 1.5,
-      },
-    },
-  },
   headingClassName: "heading font-color why-choose-heading",
   heading: "WHY CHOOSE US?",
   headingMarginLeft: "25%",
@@ -337,20 +196,8 @@ export const whyChooseUsCards = [
 
 // Home page (contact us component)
 export const contactUsFigure = {
-  figureVariant: {
-    hidden: {
-      opacity: 0,
-      x: 100,
-    },
-    visible: {
-      opacity: 1,
-      x: 0,
-      transition: {
-        duration: 1.5,
-      },
-    },
-  },
-  figureImgClassName: "contact-us-figure",
+  divClassName: "contact-us-figure",
+  figureImgClassName: "contact-us-figure-img",
   figureImgSrc: require("../../images/cyborpixel-08.png"),
   figureImgAlt: "Contact us Figure",
   figureImgWidth: "1800px",
@@ -360,19 +207,6 @@ export const contactUsFigure = {
 };
 
 export const contactUsHeading = {
-  headingVariant: {
-    hidden: {
-      opacity: 0,
-      x: -100,
-    },
-    visible: {
-      opacity: 1,
-      x: 0,
-      transition: {
-        duration: 1,
-      },
-    },
-  },
   headingClassName: "heading font-color contact-us-heading",
   heading: "CONTACT US",
   headingMarginLeft: "25%",

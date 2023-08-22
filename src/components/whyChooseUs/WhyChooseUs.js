@@ -1,4 +1,3 @@
-import { Box } from "@mui/material";
 import {
   whyChooseUsCards,
   whyChooseUsFigure,
@@ -7,6 +6,7 @@ import {
 import FigureComponent from "../figureComponent/FigureComponent";
 import HeadingComponent from "../headingComponent/HeadingComponent";
 import WhyChooseUsCards from "../whyChooseUsCards/WhyChooseUsCards";
+import "./WhyChooseUsStyle.css";
 
 const WhyChooseUs = () => {
   const figureDetail = whyChooseUsFigure;
@@ -14,20 +14,23 @@ const WhyChooseUs = () => {
   const cardsDetail = whyChooseUsCards;
 
   return (
-    <Box
-      sx={{
-        overflow: "hidden",
+    <div
+      style={{
+        position: "absolute",
         width: "100%",
         minHeight: "100vh",
-        position: "absolute",
+        overflow: "hidden",
+        marginTop: "2900px",
       }}
     >
-      <FigureComponent figureDetails={figureDetail} />
+      <div className={figureDetail.divClassName}>
+        <FigureComponent figureDetails={figureDetail} />
+      </div>
 
       <HeadingComponent headingDetails={headingDetail} />
 
       <WhyChooseUsCards cardsDetails={cardsDetail} />
-    </Box>
+    </div>
   );
 };
 

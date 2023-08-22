@@ -1,8 +1,11 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 
 const Contact = () => {
   return (
-    <Box className="font-color" sx={{ marginLeft: "15%" }}>
+    <div
+      className="font-color"
+      style={{ marginLeft: "15%", marginTop: "-380px" }}
+    >
       <Typography variant="h5" component="h6">
         LOCATION
       </Typography>
@@ -24,7 +27,7 @@ const Contact = () => {
       </Typography>
 
       <Button>LET'S TALK</Button>
-    </Box>
+    </div>
   );
 };
 
