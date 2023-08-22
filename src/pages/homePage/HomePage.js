@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { Grid } from "@mui/material";
 import HomeTopFigures from "../../components/homeTopFigures/HomeTopFigures";
 import WhatMakesUs from "../../components/whatMakesUs/WhatMakesUs";
@@ -5,8 +7,6 @@ import OurServices from "../../components/ourServices/OurServices";
 import WhyChooseUs from "../../components/whyChooseUs/WhyChooseUs";
 import ContactUs from "../../components/contactUs/ContactUs";
 import Footer from "../../components/footer/Footer";
-import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
 
 const HomePage = () => {
   const pathName = useLocation();
