@@ -5,8 +5,17 @@ import OurServices from "../../components/ourServices/OurServices";
 import WhyChooseUs from "../../components/whyChooseUs/WhyChooseUs";
 import ContactUs from "../../components/contactUs/ContactUs";
 import Footer from "../../components/footer/Footer";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 const HomePage = () => {
+  const pathName = useLocation();
+  console.log(pathName);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathName]);
+
   return (
     <div>
       <Grid container>
