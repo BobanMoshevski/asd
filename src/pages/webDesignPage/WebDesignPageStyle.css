@@ -1,81 +1,40 @@
-@media screen and (max-width: 1441px) {
-  .web-design-figure {
-    margin-left: 44% !important;
-    margin-top: -450px !important;
-  }
-
-  .web-design-heading {
-    margin-left: 72% !important;
-  }
-
-  .web-design-img {
-    margin-left: 25% !important;
-  }
-
-  .web-design-text {
-    margin-top: -450px !important;
-  }
+.web-design-figure {
+  width: 115%;
+  height: 850px;
 }
 
-@media screen and (max-width: 1025px) {
-  .web-design-figure {
-    margin-left: 14% !important;
-  }
-
-  .web-design-heading {
-    margin-left: 53% !important;
-  }
-
-  .web-design-img {
-    width: 800px !important;
-    height: 400px !important;
-    margin-left: 33% !important;
-    margin-top: -22px !important;
-  }
-
-  .web-design-text {
-    margin-top: -400px !important;
-  }
+.web-design-figure-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: -40px;
+  left: 47%;
 }
 
-@media screen and (max-width: 769px) {
-  .web-design-figure {
-    margin-left: -14% !important;
-    margin-top: -470px !important;
-  }
-
-  .web-design-heading {
-    margin-left: 38% !important;
-  }
-
-  .web-design-img {
-    width: 900px !important;
-    height: 500px !important;
-    margin-left: -8% !important;
-    margin-top: -28px !important;
-  }
-
-  .web-design-text {
-    width: 80% !important;
-    margin-top: 10px !important;
-  }
+.web-design-heading {
+  position: relative;
+  width: 100%;
+  top: -685px;
+  left: 64%;
 }
 
-@media screen and (max-width: 426px) {
-  .web-design-figure {
-    width: 1100px !important;
-    margin-left: 4% !important;
-    margin-top: -470px !important;
-  }
+.web-design {
+  width: 62%;
+  height: 610px;
+  margin-top: -745px;
+  margin-left: 38%;
+}
 
-  .web-design-heading {
-    margin-left: 54% !important;
-  }
+.web-design-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
 
-  .web-design-img {
-    width: 600px !important;
-    height: 300px !important;
-    margin-left: -21% !important;
-    margin-top: 5px !important;
-  }
+.web-design-text {
+  position: relative;
+  width: 35%;
+  top: -380px;
+  left: 10%;
 }

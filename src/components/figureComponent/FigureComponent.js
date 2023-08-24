@@ -3,9 +3,9 @@ import "./FigureComponentStyle.css";
 const FigureComponent = ({ figureDetails }) => {
   return (
     <img
+      className={figureDetails.figureImgClassName}
       src={figureDetails.figureImgSrc}
       alt={figureDetails.figureImgAlt}
-      className={figureDetails.figureImgClassName}
     />
   );
 };

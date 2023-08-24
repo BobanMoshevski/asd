@@ -1,0 +1,19 @@
+.lets-talk-figure {
+  width: 110%;
+  height: 800px;
+}
+
+.lets-talk-figure-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: -160px;
+  left: -45%;
+}
+
+.lets-talk-heading {
+  position: relative;
+  width: 100%;
+  top: -658px;
+  left: 28.5%;
+}

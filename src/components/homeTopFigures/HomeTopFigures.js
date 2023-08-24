@@ -5,18 +5,16 @@ const HomeTopFigures = () => {
   const topFigures = homeTopFigures;
 
   return (
-    <div id="home">
-      <div className="figures-animate">
-        {topFigures.map((figure, index) => (
-          <div key={index} className={figure.divClassName}>
-            <img
-              className={figure.imageClassName}
-              src={figure.imageSrc}
-              alt={figure.imageAlt}
-            />
-          </div>
-        ))}
-      </div>
+    <div id="home" className="figures-animate">
+      {topFigures.map((figure, index) => (
+        <div key={index} className={figure.divClassName}>
+          <img
+            className={figure.imageClassName}
+            src={figure.imageSrc}
+            alt={figure.imageAlt}
+          />
+        </div>
+      ))}
     </div>
   );
 };

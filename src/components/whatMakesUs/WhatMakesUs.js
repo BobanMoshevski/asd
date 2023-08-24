@@ -21,6 +21,7 @@ const WhatMakesUs = () => {
         minHeight: "100vh",
         overflow: "hidden",
         marginTop: "720px",
+        zIndex: 4,
       }}
     >
       <div className={figureDetail.divClassName}>

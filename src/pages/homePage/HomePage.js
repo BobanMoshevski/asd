@@ -9,12 +9,11 @@ import ContactUs from "../../components/contactUs/ContactUs";
 import Footer from "../../components/footer/Footer";
 
 const HomePage = () => {
-  const pathName = useLocation();
-  console.log(pathName);
+  const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathName]);
+    if (pathname === "/") return window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <div>

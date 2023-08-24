@@ -9,6 +9,7 @@ import ItConsultingAndStrategyPage from "../../pages/itConsultingAndStrategyPage
 import WebDesignPage from "../../pages/webDesignPage/WebDesignPage";
 import GraphicDesignPage from "../../pages/graphicDesignPage/GraphicDesignPage";
 import UiUxDesignPage from "../../pages/uiUxDesignPage/UiUxDesignpage";
+import LetsTalkPage from "../../pages/letsTalkPage/LetsTalkPage";
 
 export const router = createBrowserRouter([
   {
@@ -52,6 +53,10 @@ export const router = createBrowserRouter([
             element: <UiUxDesignPage />,
           },
         ],
+      },
+      {
+        path: "lets-talk",
+        element: <LetsTalkPage />,
       },
     ],
   },

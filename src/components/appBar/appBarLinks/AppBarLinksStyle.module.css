@@ -4,20 +4,20 @@
   padding-left: 0;
 }
 
-.list-items {
+.list-item {
   padding: 0 12px;
 }
 
-.list-items a {
+.list-item a {
   text-decoration: none;
   color: inherit;
 }
 
-.list-items a:hover {
+.list-item a:hover {
   color: #455a64;
 }
 
-.list-items a.active {
+.list-item a.active {
   text-decoration: underline;
   color: #455a64;
 }

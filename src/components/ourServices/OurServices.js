@@ -21,6 +21,7 @@ const OurServices = () => {
         minHeight: "100vh",
         overflow: "hidden",
         marginTop: "1200px",
+        zIndex: 3,
       }}
     >
       <div className={figureDetail.divClassName}>

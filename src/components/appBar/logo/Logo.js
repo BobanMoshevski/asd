@@ -6,10 +6,7 @@ const Logo = () => {
   const logo = appBarLogo;
 
   return (
-    <NavLink
-      to="/"
-      style={{ paddingLeft: "25px", marginLeft: logo.logoMarginLeft }}
-    >
+    <NavLink to="/" style={{ paddingLeft: "25px", marginLeft: "-2%" }}>
       <img
         className={logo.logoClassName}
         src={logo.logoSrc}

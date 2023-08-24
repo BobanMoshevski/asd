@@ -17,6 +17,7 @@ const ContactUs = () => {
         height: "1550px",
         overflow: "hidden",
         marginTop: "3750px",
+        zIndex: 1,
       }}
     >
       <div className={figureDetail.divClassName}>

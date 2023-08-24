@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { Box } from "@mui/material";
+import { Grid } from "@mui/material";
 import {
   networkSetupAndManagementFigure,
   networkSetupAndManagementHeading,
@@ -14,7 +14,7 @@ import TextContent from "../../components/textContent/TextContent";
 import "./NetworkSetupAndManagementPageStyle.css";
 
 const NetworkSetupAndManagementPage = () => {
-  const pathname = useLocation();
+  const { pathname } = useLocation();
   const figureDetail = networkSetupAndManagementFigure;
   const headingDetail = networkSetupAndManagementHeading;
   const imageDetail = networkSetupAndManagementImage;
@@ -25,22 +25,29 @@ const NetworkSetupAndManagementPage = () => {
   }, [pathname]);
 
   return (
-    <Box
-      sx={{
-        overflow: "hidden",
-        width: "100%",
-        minHeight: "100vh",
-        marginTop: "30px",
-      }}
-    >
-      <FigureComponent figureDetails={figureDetail} />
+    <Grid container>
+      <Grid item xs={12}>
+        <div
+          style={{
+            width: "100%",
+            minHeight: "90vh",
+            overflow: "hidden",
+          }}
+        >
+          <div className={figureDetail.divClassName}>
+            <FigureComponent figureDetails={figureDetail} />
+          </div>
 
-      <HeadingComponent headingDetails={headingDetail} />
+          <HeadingComponent headingDetails={headingDetail} />
 
-      <ImageComponent imageDetails={imageDetail} />
+          <div className={imageDetail.divClassName}>
+            <ImageComponent imageDetails={imageDetail} />
+          </div>
 
-      <TextContent textDetails={textDetail} />
-    </Box>
+          <TextContent textDetails={textDetail} />
+        </div>
+      </Grid>
+    </Grid>
   );
 };
 

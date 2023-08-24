@@ -21,6 +21,7 @@ const WhyChooseUs = () => {
         minHeight: "100vh",
         overflow: "hidden",
         marginTop: "2900px",
+        zIndex: 2,
       }}
     >
       <div className={figureDetail.divClassName}>

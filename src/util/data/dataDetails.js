@@ -3,16 +3,31 @@ export const appBarLogo = {
   logoClassName: "logo",
   logoSrc: require("../../images/logo.png"),
   logoAlt: "Logo",
-  logoMarginLeft: "-2%",
 };
 
 // App bar links
 export const appBarLinks = [
-  "HOME",
-  "ABOUT US",
-  "SERVICES",
-  "LET'S TALK",
-  "CONTACT US",
+  {
+    pathName: "HOME",
+    scrollId: "home",
+    goTo: "/",
+  },
+  {
+    pathName: "ABOUT US",
+    scrollId: "about",
+  },
+  {
+    pathName: "SERVICES",
+    scrollId: "services",
+  },
+  {
+    pathName: "LET'S TALK",
+    goTo: "lets-talk",
+  },
+  {
+    pathName: "CONTACT US",
+    scrollId: "contact",
+  },
 ];
 
 // Home page (top figures)
@@ -200,445 +215,232 @@ export const contactUsFigure = {
   figureImgClassName: "contact-us-figure-img",
   figureImgSrc: require("../../images/cyborpixel-08.png"),
   figureImgAlt: "Contact us Figure",
-  figureImgWidth: "1800px",
-  figureImgHeight: "800px",
-  figureImgMarginLeft: "-40%",
-  figureImgMarginTop: "3800px",
 };
 
 export const contactUsHeading = {
   headingClassName: "heading font-color contact-us-heading",
   heading: "CONTACT US",
-  headingMarginLeft: "25%",
-  headingMarginTop: "-500px",
-  headingMarginBottom: "150px",
 };
 
 export const homeBottomFigures = [
   {
-    figureVariant: {
-      hidden: {
-        opacity: 0,
-        x: 100,
-      },
-      visible: {
-        opacity: 1,
-        x: 0,
-        transition: {
-          duration: 1.5,
-        },
-      },
-    },
     figureClassName: "bottom-figure-1",
     figureImgSrc: require("../../images/cyborpixel-34.png"),
     figureImgAlt: "Home bottom figure 1",
   },
   {
-    figureVariant: {
-      hidden: {
-        opacity: 0,
-        x: -100,
-      },
-      visible: {
-        opacity: 1,
-        x: 0,
-        transition: {
-          duration: 1.5,
-        },
-      },
-    },
     figureClassName: "bottom-figure-2",
     figureImgSrc: require("../../images/cyborpixel-35.png"),
     figureImgAlt: "Home bottom figure 2",
   },
   {
-    figureVariant: {
-      hidden: {
-        opacity: 0,
-        x: 100,
-      },
-      visible: {
-        opacity: 1,
-        x: 0,
-        transition: {
-          duration: 1.5,
-        },
-      },
-    },
     figureClassName: "bottom-image",
     figureImgSrc: require("../../images/cyp-45.png"),
     figureImgAlt: "Home bottom image",
   },
   {
-    figureVariant: {
-      hidden: {
-        opacity: 0,
-        x: -100,
-      },
-      visible: {
-        opacity: 1,
-        x: 0,
-        transition: {
-          duration: 1.5,
-        },
-      },
-    },
     figureClassName: "bottom-figure-3",
     figureImgSrc: require("../../images/cyborpixel-34.png"),
     figureImgAlt: "Home bottom figure 3",
   },
   {
-    figureVariant: {
-      hidden: {
-        opacity: 0,
-        x: 100,
-      },
-      visible: {
-        opacity: 1,
-        x: 0,
-        transition: {
-          duration: 1.5,
-        },
-      },
-    },
     figureClassName: "bottom-figure-4",
     figureImgSrc: require("../../images/cyborpixel-36.png"),
     figureImgAlt: "Home bottom figure 4",
   },
 ];
 
+// Let's talk page
+export const letsTalkFigure = {
+  divClassName: "lets-talk-figure",
+  figureImgClassName: "lets-talk-figure-img",
+  figureImgSrc: require("../../images/cyborpixel-08.png"),
+  figureImgAlt: "Contact us Figure",
+};
+
+export const letsTalkHeading = {
+  headingClassName: "heading font-color lets-talk-heading",
+  heading: "LET'S TALK",
+};
+
 // Network setup and management page
 export const networkSetupAndManagementFigure = {
-  dataAos: "slide-up",
-  dataAosOffset: "300",
-  dataAosEasing: "ease-in",
-  figureImgClassName: "network-setup-figure",
+  divClassName: "network-setup-figure",
+  figureImgClassName: "network-setup-figure-img",
   figureImgSrc: require("../../images/cyborpixel-16.png"),
   figureImgAlt: "Network setup and management image figure",
-  figureImgWidth: "2000px",
-  figureImgHeight: "800px",
-  figureImgMarginLeft: "27%",
-  figureImgMarginTop: "-200px",
 };
 
 export const networkSetupAndManagementHeading = {
-  dataAos: "slide-down",
-  dataAosOffset: "300",
-  dataAosEasing: "ease-in",
   headingClassName: "heading font-color network-setup-heading",
   heading: "NETWORK SETUP AND MANAGEMENT",
-  headingMarginLeft: "53%",
-  headingMarginTop: "-500px",
 };
 
 export const networkSetupAndManagementImage = {
-  dataAos: "slide-left",
-  dataAosOffset: "300",
-  dataAosEasing: "ease-in",
+  divClassName: "network-setup",
   imageClassName: "network-setup-img",
   imageSrc: require("../../images/cyborp-photos-43.png"),
   imageAlt: "Network setup and management image",
-  imageWidth: "1500px",
-  imageHeight: "700px",
-  imageMarginLeft: "35%",
-  imageMarginTop: "-20px",
 };
 
 export const networkSetupAndManagementText = {
-  dataAos: "slide-right",
-  dataAosOffset: "300",
-  dataAosEasing: "ease-in",
   textClassName: "network-setup-text",
   textContent:
     "This service involves designing, implementing, and maintaining computer networks within an organization. It includes tasks like network configuration, troublesooting, security implementation, and performance optimization.",
-  textMarginLeft: "14%",
-  textMarginTop: "-450px",
 };
 
 // Help desk and technical support page
 export const helpDeskAndTechnicalSupportFigure = {
-  dataAos: "zoom-out-right",
-  dataAosOffset: "100",
-  dataAosEasing: "ease-in-sine",
-  figureImgClassName: "help-desk-figure",
+  divClassName: "help-desk-figure",
+  figureImgClassName: "help-desk-figure-img",
   figureImgSrc: require("../../images/cyborpixel-08.png"),
   figureImgAlt: "Help desk and technical support image figure",
-  figureImgWidth: "2200px",
-  figureImgHeight: "800px",
-  figureImgMarginLeft: "-40%",
-  figureImgMarginTop: "-150px",
 };
 
 export const helpDeskAndTechnicalSupportHeading = {
-  dataAos: "flip-down",
-  dataAosOffset: "100",
-  dataAosEasing: "ease-in",
   headingClassName: "heading font-color help-desk-heading",
   heading: "HELP DESK AND TECHNICAL SUPPORT",
-  headingMarginLeft: "18%",
-  headingMarginTop: "-505px",
 };
 
 export const helpDeskAndTechnicalSupportImage = {
-  dataAos: "zoom-out-left",
-  dataAosOffset: "100",
-  dataAosEasing: "ease-in-sine",
+  divClassName: "help-desk",
   imageClassName: "help-desk-img",
   imageSrc: require("../../images/cyborp-photos-27.png"),
   imageAlt: "Help desk and technical support",
-  imageWidth: "1300px",
-  imageHeight: "700px",
-  imageMarginLeft: "-7%",
-  imageMarginTop: "-90px",
 };
 
 export const helpDeskAndTechnicalSupportText = {
-  dataAos: "zoom-out-right",
-  dataAosOffset: "100",
-  dataAosEasing: "ease-in-sine",
   textClassName: "help-desk-text",
   textContent:
     "Help desk services provide assistance to end-users by addressing their IT- related issues and inquiries. This may incude troubleshooting software and hardwer problems, providing remote assistance, and offering guidance on IT best practices.",
-  textMarginLeft: "55%",
-  textMarginTop: "-450px",
 };
 
 // Data backup and recovery page
 export const dataBackupAndRecoveryFigure = {
-  dataAos: "zoom-in-right",
-  dataAosOffset: "100",
-  dataAosEasing: "ease-in",
-  figureImgClassName: "data-backup-figure",
+  divClassName: "data-backup-figure",
+  figureImgClassName: "data-backup-figure-img",
   figureImgSrc: require("../../images/cyborpixel-14.png"),
   figureImgAlt: "Data backup and recovery image figure",
-  figureImgWidth: "2200px",
-  figureImgHeight: "800px",
-  figureImgMarginLeft: "50%",
-  figureImgMarginTop: "-10px",
 };
 
 export const dataBackupAndRecoveryHeading = {
-  dataAos: "zoom-in-down",
-  dataAosOffset: "100",
-  dataAosEasing: "ease-in",
   headingClassName: "heading font-color data-backup-heading",
   heading: "DATA BACKUP AND RECOVERY",
-  headingMarginLeft: "60%",
-  headingMarginTop: "-615px",
 };
 
 export const dataBackupAndRecoveryImage = {
-  dataAos: "zoom-in-left",
-  dataAosOffset: "100",
-  dataAosEasing: "ease-in",
+  divClassName: "data-backup",
   imageClassName: "data-backup-img",
   imageSrc: require("../../images/cyborp-photos-28.png"),
   imageAlt: "Data backup and recovery",
-  imageWidth: "1100px",
-  imageHeight: "600px",
-  imageMarginLeft: "45%",
-  imageMarginTop: "-63px",
 };
 
 export const dataBackupAndRecoveryText = {
-  dataAos: "zoom-in-left",
-  dataAosOffset: "100",
-  dataAosEasing: "ease-in",
   textClassName: "data-backup-text",
   textContent:
     "This service involves implementing systems and processes to regulary back up important data and develop strategies for restoring data in case of loss or disaster. It includes defining backup schedules, choosing appropriate backup methods, and testing recovery procedures.",
-  textMarginLeft: "15%",
-  textMarginTop: "-400px",
 };
 
 // It consulting and strategy page
 export const itConsultingAndStrategyFigure = {
-  dataAos: "zoom-in-right",
-  dataAosOffset: "300",
-  dataAosEasing: "ease-in-sine",
-  figureImgClassName: "it-consulting-figure",
+  divClassName: "it-consulting-figure",
+  figureImgClassName: "it-consulting-figure-img",
   figureImgSrc: require("../../images/cyborpixel-08.png"),
   figureImgAlt: "Data backup and recovery image figure",
-  figureWidth: "2200px",
-  figureImgHeight: "800px",
-  figureImgMarginLeft: "-28%",
-  figureImgMarginTop: "-150px",
 };
 
 export const itConsultingAndStrategyHeading = {
-  dataAos: "zoom-in-right",
-  dataAosOffset: "300",
-  dataAosEasing: "ease-in-sine",
   headingClassName: "heading font-color it-consulting-heading",
   heading: "IT CONSULTING AND STRATEGY",
-  headingMarginLeft: "7%",
-  headingMarginTop: "-505px",
 };
 
 export const itConsultingAndStrategyImage = {
-  dataAos: "zoom-in-right",
-  dataAosOffset: "300",
-  dataAosEasing: "ease-in",
+  divClassName: "it-consulting",
   imageClassName: "it-consulting-img",
   imageSrc: require("../../images/cyborp-photos-29.png"),
   imageAlt: "It consulting and strategy",
-  imageWidth: "1500px",
-  imageHeight: "700px",
-  imageMarginLeft: "-15.7%",
-  imageMarginTop: "-144px",
 };
 
 export const itConsultingAndStrategyText = {
-  dataAos: "zoom-in-left",
-  dataAosOffset: "300",
-  dataAosEasing: "ease-in-sine",
   textClassName: "it-consulting-text",
   textContent:
     "IT consulting services provide expert advice and guidance to organizations on technology-related matters. This includes assessing existing IT infrastucture, identifuing areas for improvement, and developing IT strategies aligned with business goals.",
-  textMarginLeft: "55%",
-  textMarginTop: "-350px",
 };
 
 // Web design page
 export const webDesignFigure = {
-  dataAos: "zoom-out-up",
-  dataAosOffset: "100",
-  dataAosEasing: "ease-in-sine",
-  figureImgClassName: "web-design-figure",
+  divClassName: "web-design-figure",
+  figureImgClassName: "web-design-figure-img",
   figureImgSrc: require("../../images/cyborpixel-08.png"),
   figureImgAlt: "Web design figure",
-  figureImgWidth: "2200px",
-  figureImgHeight: "800px",
-  figureImgMarginLeft: "54%",
-  figureImgMarginTop: "-270px",
 };
 
 export const webDesignHeading = {
-  dataAos: "zoom-out-down",
-  dataAosOffset: "100",
-  dataAosEasing: "ease-in-sine",
   headingClassName: "heading font-color web-design-heading",
   heading: "WEB DESIGN",
-  headingMarginLeft: "76%",
-  headingMarginTop: "-207px",
 };
 
 export const webDesignImage = {
-  dataAos: "zoom-out-down",
-  dataAosOffset: "100",
-  dataAosEasing: "ease-in-sine",
+  divClassName: "web-design",
   imageClassName: "web-design-img",
   imageSrc: require("../../images/cyborp-photos-32.png"),
   imageAlt: "Web design",
-  imageWidth: "1300px",
-  imageHeight: "600px",
-  imageMarginLeft: "41%",
-  imageMarginTop: "-54px",
 };
 
 export const webDesignText = {
-  dataAos: "zoom-out-up",
-  dataAosOffset: "100",
-  dataAosEasing: "ease-in-sine",
   textClassName: "web-design-text",
   textContent:
     "Creation and development of websites. Web designers work on various aspects of a website, including its layout, visual elements, colorschemes, typography, and overall user experience. They aim to create websites that are visually appealing, easy to navigate, and optimized for different devices and screen sizes. Web designers often use design tools coding languages (such as HTML, CSS, and JavaScript), and content management system (such as WordPress or Drupal) to build functional and aesthetically pleasing websites. The design process typically incudes gathering requirements, creating wireframes and mockups, coding and development, and testing for usability and compatibility.",
-  textMarginLeft: "10%",
-  textMarginTop: "-650px",
 };
 
 // Graphic design
 export const graphicDesignFigure = {
-  dataAos: "zoom-out-up",
-  dataAosOffset: "100",
-  dataAosEasing: "linear",
-  figureImgClassName: "graphic-design-figure",
+  divClassName: "graphic-design-figure",
+  figureImgClassName: "graphic-design-figure-img",
   figureImgSrc: require("../../images/cyborpixel-17.png"),
   figureImgAlt: "Graphic design figure",
-  figureImgWidth: "2200px",
-  figureImgHeight: "800px",
-  figureImgMarginLeft: "35%",
-  figureImgMarginTop: "-300px",
 };
 
 export const graphicDesignHeading = {
-  dataAos: "zoom-out-down",
-  dataAosOffset: "100",
-  dataAosEasing: "linear",
   headingClassName: "heading font-color graphic-design-heading",
   heading: "GRAPHIC DESIGN",
-  headingMarginLeft: "61%",
-  headingMarginTop: "-340px",
 };
 
 export const graphicDesignImage = {
-  dataAos: "zoom-out-down",
-  dataAosOffset: "100",
-  dataAosEasing: "ease-in-sine",
+  divClassName: "graphic-design",
   imageClassName: "graphic-design-img",
   imageSrc: require("../../images/cyborp-photos-30.png"),
   imageAlt: "Graphic design",
-  imageWidth: "900px",
-  imageHeight: "500px",
-  imageMarginLeft: "40%",
-  imageMarginTop: "-20px",
 };
 
 export const graphicDesignText = {
-  dataAos: "zoom-out-up",
-  dataAosOffset: "100",
-  dataAosEasing: "linear",
   textClassName: "graphic-design-text",
   textContent:
     "Help desk services provide assistance to end-users by addressing their IT-related issues and inquries. This may include troubleshooting software and hardware problems, providing remote assistance, and offering guidance on IT best practices.",
-  textMarginLeft: "10%",
-  textMarginTop: "-350px",
 };
 
 // UI/UX design
 export const uiUxDesignFigure = {
-  dataAos: "zoom-out-up",
-  dataAosOffset: "100",
-  dataAosEasing: "linear",
-  figureImgClassName: "ui-ux-design-figure",
+  divClassName: "ui-ux-design-figure",
+  figureImgClassName: "ui-ux-design-figure-img",
   figureImgSrc: require("../../images/cyborpixel-17.png"),
   figureImgAlt: "UI/UX design figure",
-  figureImgWidth: "1900px",
-  figureImgHeight: "800px",
-  figureImgMarginLeft: "-55%",
-  figureImgMarginTop: "-10px",
 };
 
 export const uiUxDesignHeading = {
-  dataAos: "zoom-out-down",
-  dataAosOffset: "100",
-  dataAosEasing: "linear",
   headingClassName: "heading font-color ui-ux-design-heading",
   heading: "UI/UX DESIGN",
-  headingMarginLeft: "17%",
-  headingMarginTop: "-630px",
 };
 
 export const uiUxDesignImage = {
-  dataAos: "zoom-out-down",
-  dataAosOffset: "100",
-  dataAosEasing: "ease-in-sine",
+  divClassName: "ui-ux-design",
   imageClassName: "ui-ux-design-img",
   imageSrc: require("../../images/cyborpixel-31.png"),
   imageAlt: "UI/UX design",
-  imageWidth: "1400px",
-  imageHeight: "600px",
-  imageMarginLeft: "-7%",
-  imageMarginTop: "-100px",
 };
 
 export const uiUxDesignText = {
-  dataAos: "zoom-out-up",
-  dataAosOffset: "100",
-  dataAosEasing: "linear",
   textClassName: "ui-ux-design-text",
   textContent:
     "Design services aim to create interface that are visually appealing, intuitive, and easy to use for end-users. User Interface (UI) design focuses on the visual aspects of an application or website, including the layout, typography, color schemes, and visual elements. UserExperience (UX) design, on the other hand, focuses on the overall experience and interaction users have with a digital product. It involves understanding user behaviors, conducting user research, creating wireframes and prototypes, and testing the usability of the design. The goal is to enhance user satisfaction, accessibility, and efficiency while using the product.",
-  textMarginLeft: "60%",
-  textMarginTop: "-450px",
 };
