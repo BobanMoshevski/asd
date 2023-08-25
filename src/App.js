@@ -1,13 +1,12 @@
-import { RouterProvider } from "react-router-dom";
-import { router } from "./util/routes/router";
 import ScrollToContextProvider from "./util/context/scrollToProvider/ScrollToProvider";
 import "aos/dist/aos.css";
 import "./App.css";
+import AnimateRoutes from "./components/animateRoutes.js/AnimateRoutes";
 
 function App() {
   return (
     <ScrollToContextProvider>
-      <RouterProvider router={router} />
+      <AnimateRoutes />
     </ScrollToContextProvider>
   );
 }

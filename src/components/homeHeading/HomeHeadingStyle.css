@@ -1,0 +1,22 @@
+.home-heading-text {
+  font-size: 3.5rem;
+  text-align: center;
+  position: relative;
+  top: 20%;
+  margin: 0 auto;
+  z-index: 10;
+  width: 40%;
+}
+
+.home-heading-text-normal {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.home-heading-button {
+  position: relative;
+  top: 45%;
+  width: 6%;
+  margin: 0 auto;
+  z-index: 13;
+}

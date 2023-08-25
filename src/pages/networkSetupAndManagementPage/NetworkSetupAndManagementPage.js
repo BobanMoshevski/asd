@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { motion } from "framer-motion";
 import { Grid } from "@mui/material";
 import {
   networkSetupAndManagementFigure,
@@ -12,9 +13,11 @@ import HeadingComponent from "../../components/headingComponent/HeadingComponent
 import ImageComponent from "../../components/imageComponent/ImageComponent";
 import TextContent from "../../components/textContent/TextContent";
 import "./NetworkSetupAndManagementPageStyle.css";
+import { homePageVariant } from "../../util/animateVariants/animateVariants";
 
 const NetworkSetupAndManagementPage = () => {
   const { pathname } = useLocation();
+  const pageVariant = homePageVariant;
   const figureDetail = networkSetupAndManagementFigure;
   const headingDetail = networkSetupAndManagementHeading;
   const imageDetail = networkSetupAndManagementImage;
@@ -27,7 +30,11 @@ const NetworkSetupAndManagementPage = () => {
   return (
     <Grid container>
       <Grid item xs={12}>
-        <div
+        <motion.div
+          variants={pageVariant}
+          initial="initial"
+          animate="animate"
+          exit="exit"
           style={{
             width: "100%",
             minHeight: "90vh",
@@ -45,7 +52,7 @@ const NetworkSetupAndManagementPage = () => {
           </div>
 
           <TextContent textDetails={textDetail} />
-        </div>
+        </motion.div>
       </Grid>
     </Grid>
   );

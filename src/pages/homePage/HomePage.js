@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { motion } from "framer-motion";
 import { Grid } from "@mui/material";
 import HomeTopFigures from "../../components/homeTopFigures/HomeTopFigures";
 import WhatMakesUs from "../../components/whatMakesUs/WhatMakesUs";
@@ -7,16 +8,23 @@ import OurServices from "../../components/ourServices/OurServices";
 import WhyChooseUs from "../../components/whyChooseUs/WhyChooseUs";
 import ContactUs from "../../components/contactUs/ContactUs";
 import Footer from "../../components/footer/Footer";
+import { homePageVariant } from "../../util/animateVariants/animateVariants";
 
 const HomePage = () => {
   const { pathname } = useLocation();
+  const pageVariant = homePageVariant;
 
   useEffect(() => {
     if (pathname === "/") return window.scrollTo(0, 0);
   }, [pathname]);
 
   return (
-    <div>
+    <motion.div
+      variants={pageVariant}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+    >
       <Grid container>
         <Grid item xs={12}>
           <HomeTopFigures />
@@ -40,7 +48,7 @@ const HomePage = () => {
       </Grid>
 
       <Footer />
-    </div>
+    </motion.div>
   );
 };
 
