@@ -12,6 +12,8 @@ import ImageComponent from "../../components/imageComponent/ImageComponent";
 import TextContent from "../../components/textContent/TextContent";
 import "./HelpDeskAndTechnicalSupportPageStyle.css";
 import { Grid } from "@mui/material";
+import { motion } from "framer-motion";
+import { homePageVariant } from "../../util/animateVariants/animateVariants";
 
 const HelpDeskAndTechnicalSupportPage = () => {
   const { pathname } = useLocation();
@@ -19,6 +21,7 @@ const HelpDeskAndTechnicalSupportPage = () => {
   const headingDetail = helpDeskAndTechnicalSupportHeading;
   const imageDetail = helpDeskAndTechnicalSupportImage;
   const textDetail = helpDeskAndTechnicalSupportText;
+  const pageVariant = homePageVariant;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -27,7 +30,11 @@ const HelpDeskAndTechnicalSupportPage = () => {
   return (
     <Grid container>
       <Grid item xs={12}>
-        <div
+        <motion.div
+          variants={pageVariant}
+          initial="initial"
+          animate="animate"
+          exit="exit"
           style={{
             width: "100%",
             minHeight: "90vh",
@@ -45,7 +52,7 @@ const HelpDeskAndTechnicalSupportPage = () => {
           </div>
 
           <TextContent textDetails={textDetail} />
-        </div>
+        </motion.div>
       </Grid>
     </Grid>
   );
