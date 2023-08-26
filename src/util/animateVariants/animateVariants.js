@@ -1,9 +1,9 @@
-export const homePageVariant = {
+export const pageVariant = {
   initial: {
     opacity: 0,
   },
   animate: { opacity: 1 },
   exit: {
-    opacity: 0,
+    opacity: 1,
   },
 };

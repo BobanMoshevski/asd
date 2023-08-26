@@ -13,11 +13,11 @@ import HeadingComponent from "../../components/headingComponent/HeadingComponent
 import ImageComponent from "../../components/imageComponent/ImageComponent";
 import TextContent from "../../components/textContent/TextContent";
 import "./NetworkSetupAndManagementPageStyle.css";
-import { homePageVariant } from "../../util/animateVariants/animateVariants";
+import { pageVariant } from "../../util/animateVariants/animateVariants";
 
 const NetworkSetupAndManagementPage = () => {
   const { pathname } = useLocation();
-  const pageVariant = homePageVariant;
+  const pageVariants = pageVariant;
   const figureDetail = networkSetupAndManagementFigure;
   const headingDetail = networkSetupAndManagementHeading;
   const imageDetail = networkSetupAndManagementImage;
@@ -31,7 +31,7 @@ const NetworkSetupAndManagementPage = () => {
     <Grid container>
       <Grid item xs={12}>
         <motion.div
-          variants={pageVariant}
+          variants={pageVariants}
           initial="initial"
           animate="animate"
           exit="exit"

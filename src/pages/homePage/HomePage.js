@@ -8,11 +8,11 @@ import OurServices from "../../components/ourServices/OurServices";
 import WhyChooseUs from "../../components/whyChooseUs/WhyChooseUs";
 import ContactUs from "../../components/contactUs/ContactUs";
 import Footer from "../../components/footer/Footer";
-import { homePageVariant } from "../../util/animateVariants/animateVariants";
+import { pageVariant } from "../../util/animateVariants/animateVariants";
 
 const HomePage = () => {
   const { pathname } = useLocation();
-  const pageVariant = homePageVariant;
+  const pageVariants = pageVariant;
 
   useEffect(() => {
     if (pathname === "/") return window.scrollTo(0, 0);
@@ -20,7 +20,7 @@ const HomePage = () => {
 
   return (
     <motion.div
-      variants={pageVariant}
+      variants={pageVariants}
       initial="initial"
       animate="animate"
       exit="exit"

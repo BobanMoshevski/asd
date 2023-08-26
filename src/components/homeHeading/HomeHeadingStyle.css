@@ -1,11 +1,11 @@
 .home-heading-text {
   font-size: 3.5rem;
   text-align: center;
+  margin: 0 auto;
+  width: 40%;
   position: relative;
   top: 20%;
-  margin: 0 auto;
-  z-index: 10;
-  width: 40%;
+  z-index: 14;
 }
 
 .home-heading-text-normal {
@@ -15,8 +15,58 @@
 
 .home-heading-button {
   position: relative;
-  top: 45%;
-  width: 6%;
+  top: 44%;
+  width: 9%;
   margin: 0 auto;
   z-index: 13;
+}
+
+@media screen and (max-width: 1740px) {
+  .home-heading-button {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 1570px) {
+  .home-heading-button {
+    width: 11%;
+  }
+}
+
+@media screen and (max-width: 1430px) {
+  .home-heading-button {
+    width: 12%;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .home-heading-text {
+    width: 45%;
+  }
+
+  .home-heading-button {
+    width: 13%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .home-heading-text {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .home-heading-button {
+    width: 14%;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .home-heading-text {
+    font-size: 3rem;
+  }
+
+  .home-heading-button {
+    width: 15%;
+  }
 }
