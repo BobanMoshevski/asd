@@ -829,3 +829,311 @@
     left: 365%;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .figure1-img {
+    left: -230%;
+  }
+
+  .figure2-img {
+    left: -320%;
+  }
+
+  .figure5-img {
+    left: 375%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .figure1-img {
+    left: -240%;
+  }
+
+  .figure2-img {
+    left: -332%;
+  }
+
+  .figure5-img {
+    left: 384%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .figure1-img {
+    left: -247%;
+  }
+
+  .figure2-img {
+    left: -343%;
+  }
+
+  .figure5-img {
+    left: 393%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .figure1-img {
+    left: -255%;
+  }
+
+  .figure2-img {
+    left: -355%;
+  }
+
+  .figure5-img {
+    left: 404%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .figure1-img {
+    left: -265%;
+  }
+
+  .figure2-img {
+    left: -370%;
+  }
+
+  .figure5-img {
+    left: 416%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home-top-figure1 {
+    width: 38%;
+    height: 250px;
+  }
+
+  .figure1-img {
+    top: -35px;
+    left: -288%;
+  }
+
+  .home-top-figure2 {
+    width: 70%;
+    height: 300px;
+  }
+
+  .figure2-img {
+    top: -250px;
+    left: -387%;
+  }
+
+  .home-top-figure3 {
+    width: 55%;
+    height: 450px;
+  }
+
+  .figure3-img {
+    top: 534px;
+    left: 27%;
+  }
+
+  .home-top-figure4 {
+    width: 60%;
+    height: 260px;
+  }
+
+  .figure4-img {
+    top: 20px;
+    left: 78%;
+  }
+
+  .home-top-figure5 {
+    width: 70%;
+    height: 270px;
+  }
+
+  .figure5-img {
+    top: -1200px;
+    left: 363%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .figure1-img {
+    left: -293%;
+  }
+
+  .figure2-img {
+    left: -394%;
+  }
+
+  .figure5-img {
+    left: 370%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .figure1-img {
+    left: -299%;
+  }
+
+  .figure2-img {
+    left: -403%;
+  }
+
+  .figure5-img {
+    left: 376%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .figure1-img {
+    left: -305%;
+  }
+
+  .figure2-img {
+    left: -411%;
+  }
+
+  .figure3-img {
+    left: 31%;
+  }
+
+  .figure5-img {
+    left: 382%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .figure1-img {
+    left: -310%;
+  }
+
+  .figure2-img {
+    left: -420%;
+  }
+
+  .figure5-img {
+    left: 389%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .figure1-img {
+    left: -317%;
+  }
+
+  .figure2-img {
+    left: -430%;
+  }
+
+  .figure5-img {
+    left: 396%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .figure1-img {
+    left: -323%;
+  }
+
+  .figure2-img {
+    left: -439%;
+  }
+
+  .figure5-img {
+    left: 403%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .figure1-img {
+    left: -330%;
+  }
+
+  .figure2-img {
+    left: -450%;
+  }
+
+  .figure5-img {
+    left: 410%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .figure1-img {
+    left: -333%;
+  }
+
+  .figure2-img {
+    left: -455%;
+  }
+
+  .figure5-img {
+    left: 414%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .figure1-img {
+    left: -340%;
+  }
+
+  .figure2-img {
+    left: -465%;
+  }
+
+  .figure5-img {
+    left: 422%;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .figure1-img {
+    left: -350%;
+  }
+
+  .figure2-img {
+    left: -478%;
+  }
+
+  .figure5-img {
+    left: 430%;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .figure1-img {
+    left: -357%;
+  }
+
+  .figure2-img {
+    left: -490%;
+  }
+
+  .figure5-img {
+    left: 440%;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .figure1-img {
+    left: -365%;
+  }
+
+  .figure2-img {
+    left: -501%;
+  }
+
+  .figure5-img {
+    left: 448%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .figure1-img {
+    left: -375%;
+  }
+
+  .figure2-img {
+    left: -515%;
+  }
+
+  .figure5-img {
+    left: 459%;
+  }
+}

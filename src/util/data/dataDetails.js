@@ -225,7 +225,7 @@ export const contactUsHeading = {
 export const homeBottomFigures = [
   {
     figureClassName: "bottom-figure-1",
-    figureImgSrc: require("../../images/cyborpixel-34.png"),
+    figureImgSrc: require("../../images/cyborpixel-03.png"),
     figureImgAlt: "Home bottom figure 1",
   },
   {
