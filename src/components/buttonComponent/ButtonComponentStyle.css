@@ -1,0 +1,24 @@
+.custom-btn {
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #3fa3b2;
+}
+
+.custom-btn:hover {
+  background-color: #76baa5;
+}
+
+.link-style {
+  text-decoration: none;
+  padding: 5px 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-btn {
+    font-size: 0.9rem;
+  }
+
+  .link-style {
+    padding: 3px 5px;
+  }
+}
