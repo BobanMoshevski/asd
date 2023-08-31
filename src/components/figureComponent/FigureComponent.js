@@ -1,5 +1,3 @@
-import "./FigureComponentStyle.css";
-
 const FigureComponent = ({ figureDetails }) => {
   return (
     <img

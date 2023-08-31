@@ -1,5 +1,3 @@
-import "./HeadingComponentStyle.css";
-
 const HeadingComponent = ({ headingDetails, idScroll }) => {
   return (
     <h2 id={idScroll} className={headingDetails.headingClassName}>

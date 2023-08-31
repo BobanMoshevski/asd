@@ -19,7 +19,7 @@ const AppBarLinks = () => {
                 key={index}
                 spy={true}
                 smooth={true}
-                offset={-200}
+                offset={-160}
                 duration={3000}
                 to={navbarLink.scrollId}
               >

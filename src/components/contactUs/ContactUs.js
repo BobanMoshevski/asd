@@ -10,16 +10,7 @@ const ContactUs = () => {
   const headingDetail = contactUsHeading;
 
   return (
-    <div
-      style={{
-        position: "absolute",
-        width: "100%",
-        height: "1550px",
-        overflow: "hidden",
-        marginTop: "3750px",
-        zIndex: 1,
-      }}
-    >
+    <div className="contact-us-wrapper">
       <div className={figureDetail.divClassName}>
         <FigureComponent figureDetails={figureDetail} />
       </div>

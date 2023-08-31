@@ -14,16 +14,7 @@ const WhyChooseUs = () => {
   const cardsDetail = whyChooseUsCards;
 
   return (
-    <div
-      style={{
-        position: "absolute",
-        width: "100%",
-        minHeight: "100vh",
-        overflow: "hidden",
-        marginTop: "2900px",
-        zIndex: 2,
-      }}
-    >
+    <div className="why-choose-wrapper">
       <div className={figureDetail.divClassName}>
         <FigureComponent figureDetails={figureDetail} />
       </div>

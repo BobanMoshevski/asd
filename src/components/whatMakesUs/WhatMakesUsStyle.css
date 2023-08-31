@@ -1,5 +1,14 @@
+.what-makes-us-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 112vh;
+  overflow: hidden;
+  margin-top: 750px;
+  z-index: 4;
+}
+
 .what-makes-figure {
-  width: 107%;
+  width: 115%;
   height: 900px;
 }
 
@@ -8,12 +17,477 @@
   width: 100%;
   height: 100%;
   top: 60px;
-  left: -33%;
+  left: -32%;
 }
 
 .what-makes-heading {
   position: relative;
   width: 100%;
   top: -500px;
-  left: 6%;
+  left: 11%;
+}
+
+.what-makes-us-text-wrapper {
+  margin-top: -410px;
+  position: relative;
+  z-index: 1;
+}
+
+.what-makes-us-bottom-text {
+  margin-top: 80px;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 1850px) {
+  .what-makes-us-wrapper {
+    margin-top: 680px;
+  }
+
+  .what-makes-heading {
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .what-makes-heading {
+    left: 9%;
+  }
+}
+
+@media screen and (max-width: 1750px) {
+  .what-makes-heading {
+    left: 7.5%;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .what-makes-figure {
+    width: 120%;
+  }
+
+  .what-makes-heading {
+    left: 8%;
+  }
+}
+
+@media screen and (max-width: 1650px) {
+  .what-makes-figure {
+    width: 125%;
+  }
+
+  .what-makes-heading {
+    left: 9%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .what-makes-us-wrapper {
+    height: 114vh;
+  }
+
+  .what-makes-figure {
+    width: 130%;
+  }
+
+  .what-makes-heading {
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .what-makes-figure {
+    width: 135%;
+  }
+
+  .what-makes-heading {
+    left: 11%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .what-makes-us-wrapper {
+    height: 117vh;
+  }
+
+  .what-makes-heading {
+    left: 9%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .what-makes-us-wrapper {
+    height: 124vh;
+  }
+
+  .what-makes-figure {
+    width: 140%;
+  }
+
+  .what-makes-us-bottom-text {
+    width: 85%;
+    margin: 80px auto 0;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .what-makes-heading {
+    left: 7%;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .what-makes-heading {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .what-makes-us-wrapper {
+    margin-top: 620px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .what-makes-us-wrapper {
+    height: 126vh;
+  }
+
+  .what-makes-figure {
+    width: 155%;
+  }
+
+  .what-makes-figure-img {
+    left: -33%;
+  }
+
+  .what-makes-heading {
+    left: 8.5%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .what-makes-heading {
+    left: 6%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .what-makes-figure {
+    width: 165%;
+  }
+
+  .what-makes-heading {
+    left: 8%;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .what-makes-us-wrapper {
+    height: 130vh;
+  }
+
+  .what-makes-heading {
+    left: 6%;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .what-makes-us-wrapper {
+    height: 132vh;
+  }
+
+  .what-makes-heading {
+    left: 3%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .what-makes-us-wrapper {
+    margin-top: 540px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .what-makes-us-wrapper {
+    height: 136vh;
+  }
+
+  .what-makes-figure {
+    width: 180%;
+  }
+
+  .what-makes-heading {
+    left: 6.5%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .what-makes-us-wrapper {
+    margin-top: 580px;
+  }
+
+  .what-makes-figure {
+    width: 160%;
+    height: 750px;
+  }
+
+  .what-makes-heading {
+    top: -405px;
+    left: 8.5%;
+  }
+
+  .what-makes-us-text-wrapper {
+    margin-top: -345px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .what-makes-heading {
+    left: 6.5%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .what-makes-heading {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .what-makes-figure {
+    width: 170%;
+  }
+
+  .what-makes-heading {
+    left: 7%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .what-makes-us-wrapper {
+    height: 141vh;
+  }
+
+  .what-makes-figure {
+    width: 180%;
+  }
+
+  .what-makes-heading {
+    left: 8%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .what-makes-us-wrapper {
+    margin-top: 520px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .what-makes-heading {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .what-makes-us-wrapper {
+    height: 144vh;
+  }
+
+  .what-makes-figure {
+    width: 185%;
+  }
+
+  .what-makes-heading {
+    left: 6%;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .what-makes-figure {
+    width: 190%;
+  }
+
+  .what-makes-heading {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .what-makes-heading {
+    left: 3.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .what-makes-us-wrapper {
+    height: 156vh;
+  }
+
+  .what-makes-heading {
+    left: 9%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .what-makes-heading {
+    left: 6%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .what-makes-us-wrapper {
+    margin-top: 310px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .what-makes-heading {
+    left: 3.5%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .what-makes-us-wrapper {
+    height: 162vh;
+  }
+
+  .what-makes-figure {
+    width: 200%;
+  }
+
+  .what-makes-figure-img {
+    left: -34%;
+  }
+
+  .what-makes-heading {
+    left: 2%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .what-makes-figure {
+    width: 202%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .what-makes-us-wrapper {
+    height: 166vh;
+  }
+
+  .what-makes-figure {
+    width: 204%;
+  }
+
+  .what-makes-heading {
+    left: 0.5%;
+  }
+}
+
+@media screen and (max-width: 624px) {
+  .what-makes-us-wrapper {
+    height: 170vh;
+  }
+
+  .what-makes-figure {
+    width: 205%;
+  }
+
+  .what-makes-heading {
+    left: 0.1%;
+  }
+}
+
+@media screen and (max-width: 619px) {
+  .what-makes-us-wrapper {
+    height: 175vh;
+  }
+
+  .what-makes-figure {
+    width: 190%;
+  }
+
+  .what-makes-heading {
+    text-align: center;
+    top: -412px;
+    left: -5%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .what-makes-us-wrapper {
+    height: 180vh;
+  }
+
+  .what-makes-figure {
+    width: 200%;
+  }
+
+  .what-makes-heading {
+    left: -3%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .what-makes-us-wrapper {
+    height: 180vh;
+  }
+
+  .what-makes-figure {
+    width: 200%;
+  }
+
+  .what-makes-heading {
+    left: -1.5%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .what-makes-us-wrapper {
+    height: 195vh;
+  }
+
+  .what-makes-figure {
+    width: 205%;
+  }
+
+  .what-makes-heading {
+    left: -0.5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .what-makes-us-wrapper {
+    margin-top: 200px;
+  }
+
+  .what-makes-figure-img {
+    left: -34.1%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .what-makes-us-wrapper {
+    height: 205vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .what-makes-us-wrapper {
+    height: 215vh;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .what-makes-us-wrapper {
+    height: 190vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .what-makes-us-wrapper {
+    height: 200vh;
+  }
 }

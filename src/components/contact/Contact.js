@@ -1,32 +1,21 @@
-import { Button, Typography } from "@mui/material";
+import ButtonComponent from "../buttonComponent/ButtonComponent";
 
 const Contact = () => {
   return (
-    <div
-      className="font-color"
-      style={{ marginLeft: "15%", marginTop: "-380px" }}
-    >
-      <Typography variant="h5" component="h6">
-        LOCATION
-      </Typography>
+    <div className="font-color contact-wrapper">
+      <h6 className="contact-heading">LOCATION</h6>
 
-      <Typography variant="h6" component="p">
-        999 Blue Street, Blue, Street
-      </Typography>
+      <p className="contact-text">999 Blue Street, Blue, Street</p>
 
-      <Typography variant="h5" component="h6">
-        CONTACT
-      </Typography>
+      <h6 className="contact-heading">CONTACT</h6>
 
-      <Typography variant="h6" component="p">
-        Phone: +389 12 345 678
-      </Typography>
+      <p className="contact-text phone-contact">Phone: +389 12 345 678</p>
 
-      <Typography variant="h6" component="p">
+      <p className="contact-text mail-contact">
         Mail us: darkforce@darkforce.com
-      </Typography>
+      </p>
 
-      <Button>LET'S TALK</Button>
+      <ButtonComponent btnText={"LET'S TALK"} />
     </div>
   );
 };

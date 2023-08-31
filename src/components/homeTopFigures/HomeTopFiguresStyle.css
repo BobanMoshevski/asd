@@ -3,7 +3,7 @@
   margin-top: -53px;
   position: absolute;
   width: 100%;
-  height: 110vh;
+  height: 115vh;
   overflow: hidden;
   z-index: 5;
 }
@@ -62,7 +62,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  top: -1500px;
+  top: -1400px;
   left: 92%;
   z-index: 11;
   animation: homeTopFigure4 3s forwards 2s;
@@ -84,7 +84,17 @@
 }
 
 /* Media queris */
+@media screen and (max-width: 1875px) {
+  .figures-animate {
+    height: 125vh;
+  }
+}
+
 @media screen and (max-width: 1850px) {
+  .figures-animate {
+    height: 115vh;
+  }
+
   .home-top-figure1 {
     height: 650px;
   }
@@ -113,7 +123,7 @@
   }
 
   .figure4-img {
-    top: -1350px;
+    top: -1240px;
     left: 90%;
   }
 
@@ -324,6 +334,10 @@
 }
 
 @media screen and (max-width: 1300px) {
+  .figures-animate {
+    height: 110vh;
+  }
+
   .home-top-figure1 {
     width: 40%;
     height: 600px;
@@ -359,7 +373,7 @@
   }
 
   .figure4-img {
-    top: -1150px;
+    top: -1050px;
     left: 96%;
   }
 
@@ -441,6 +455,10 @@
 }
 
 @media screen and (max-width: 1100px) {
+  .figures-animate {
+    height: 100vh;
+  }
+
   .home-top-figure1 {
     height: 500px;
   }
@@ -475,7 +493,7 @@
   }
 
   .figure4-img {
-    top: -950px;
+    top: -850px;
     left: 118%;
   }
 
@@ -490,7 +508,7 @@
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1060px) {
   .figure1-img {
     left: -129%;
   }
@@ -573,7 +591,7 @@
   }
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 910px) {
   .figure1-img {
     left: -148%;
   }
@@ -588,6 +606,10 @@
 }
 
 @media screen and (max-width: 880px) {
+  .figures-animate {
+    height: 95vh;
+  }
+
   .home-top-figure1 {
     height: 450px;
   }
@@ -623,7 +645,7 @@
   }
 
   .figure4-img {
-    top: -745px;
+    top: -645px;
     left: 99%;
   }
 
@@ -709,6 +731,10 @@
 }
 
 @media screen and (max-width: 720px) {
+  .figures-animate {
+    height: 70vh;
+  }
+
   .home-top-figure1 {
     width: 40%;
     height: 350px;
@@ -745,7 +771,7 @@
   }
 
   .figure4-img {
-    top: -340px;
+    top: -235px;
     left: 89%;
   }
 
@@ -901,6 +927,10 @@
 }
 
 @media screen and (max-width: 500px) {
+  .figures-animate {
+    height: 55vh;
+  }
+
   .home-top-figure1 {
     width: 38%;
     height: 250px;
@@ -937,7 +967,7 @@
   }
 
   .figure4-img {
-    top: 20px;
+    top: 120px;
     left: 78%;
   }
 

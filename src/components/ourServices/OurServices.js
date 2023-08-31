@@ -14,16 +14,7 @@ const OurServices = () => {
   const cardsDetails = cardsDetail;
 
   return (
-    <div
-      style={{
-        position: "absolute",
-        width: "100%",
-        minHeight: "100vh",
-        overflow: "hidden",
-        marginTop: "1200px",
-        zIndex: 3,
-      }}
-    >
+    <div className="our-services-wrapper">
       <div className={figureDetail.divClassName}>
         <FigureComponent figureDetails={figureDetail} />
       </div>

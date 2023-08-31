@@ -19,7 +19,7 @@ const DrawerLinks = ({ isDrawerOpen, setIsDrawerOpen }) => {
                 key={index}
                 spy={true}
                 smooth={true}
-                offset={-200}
+                offset={-150}
                 duration={3000}
                 to={drawerLink.scrollId}
                 onClick={() => setIsDrawerOpen(false)}

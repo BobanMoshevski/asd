@@ -4,7 +4,11 @@ import ServicesCards from "../servicesCards/ServicesCards";
 const OurServicesCards = ({ cardsDetails }) => {
   return (
     <Container>
-      <Grid container spacing={7} sx={{ marginTop: "-150px" }}>
+      <Grid
+        container
+        spacing={7}
+        sx={{ marginTop: { xs: "10px", md: "-50px" } }}
+      >
         {cardsDetails.map((cardDetail, index) => (
           <Grid
             item

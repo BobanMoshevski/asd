@@ -7,7 +7,7 @@ import WhatMakesUs from "../../components/whatMakesUs/WhatMakesUs";
 import OurServices from "../../components/ourServices/OurServices";
 import WhyChooseUs from "../../components/whyChooseUs/WhyChooseUs";
 import ContactUs from "../../components/contactUs/ContactUs";
-import Footer from "../../components/footer/Footer";
+// import Footer from "../../components/footer/Footer";
 import { pageVariant } from "../../util/animateVariants/animateVariants";
 
 const HomePage = () => {
@@ -15,7 +15,7 @@ const HomePage = () => {
   const pageVariants = pageVariant;
 
   useEffect(() => {
-    if (pathname === "/") return window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   }, [pathname]);
 
   return (
@@ -47,7 +47,7 @@ const HomePage = () => {
         </Grid>
       </Grid>
 
-      <Footer />
+      {/* <Footer /> */}
     </motion.div>
   );
 };

@@ -1,3 +1,12 @@
+.our-services-wrapper {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 1180px;
+  overflow: hidden;
+  z-index: 3;
+}
+
 .our-services-figure {
   width: 90%;
   height: 900px;
@@ -7,13 +16,622 @@
   position: relative;
   width: 100%;
   height: 100%;
-  top: 70px;
-  left: 38%;
+  top: 160px;
+  left: 42%;
 }
 
 .our-services-heading {
-  width: 100%;
   position: relative;
-  top: -300px;
-  left: 56%;
+  width: 100%;
+  top: -215px;
+  left: 59%;
+}
+
+.our-services-card-wrapper {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  border-radius: 0 25% 0 0;
+}
+
+.our-services-card {
+  background: inherit;
+  padding: 10px 25px;
+  width: 100%;
+  height: 100%;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: 1px solid white;
+  border-radius: 0 25% 0 0;
+  overflow: visible;
+}
+
+.heading-card {
+  font-size: 1.4rem;
+}
+
+.network-setup-card-img {
+  width: 230px;
+  height: 230px;
+  margin-top: -110px;
+  margin-left: 5px;
+}
+
+.network-setup-card-heading {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.help-desk-card-img {
+  width: 260px;
+  height: 260px;
+  margin-top: -95px;
+  margin-left: -5px;
+}
+
+.help-desk-card-heading {
+  margin-top: -17px;
+  margin-bottom: 62px;
+}
+
+.data-backup-card-img {
+  width: 200px;
+  height: 200px;
+  margin-top: -95px;
+  margin-left: 20px;
+}
+
+.data-backup-card-heading {
+  margin-top: 43px;
+  margin-bottom: 88px;
+}
+
+.it-consulting-card-img {
+  width: 250px;
+  height: 250px;
+  margin-top: -125px;
+}
+
+.it-consulting-card-heading {
+  margin-top: 23px;
+  margin-bottom: 88px;
+}
+
+.web-design-card-img {
+  width: 190px;
+  height: 190px;
+  margin-top: -75px;
+  margin-left: 30px;
+}
+
+.web-design-card-heading {
+  margin-top: 33px;
+  margin-bottom: 88px;
+}
+
+.graphic-design-card-img {
+  width: 225px;
+  height: 225px;
+  margin-top: -110px;
+  margin-left: -10px;
+}
+
+.graphic-design-card-heading {
+  margin-top: 33px;
+  margin-bottom: 88px;
+}
+
+.ux-ui-card-img {
+  width: 180px;
+  height: 180px;
+  margin-top: -100px;
+  margin-left: 10px;
+}
+
+.ux-ui-card-heading {
+  margin-top: 66px;
+  margin-bottom: 90px;
+}
+
+@media screen and (max-width: 1199px) {
+  .network-setup-card-img {
+    margin-left: 70px;
+  }
+
+  .help-desk-card-img {
+    margin-left: 80px;
+  }
+
+  .data-backup-card-img {
+    margin-left: 95px;
+  }
+
+  .it-consulting-card-img {
+    margin-left: 85px;
+  }
+
+  .web-design-card-img {
+    margin-left: 105px;
+  }
+
+  .graphic-design-card-img {
+    margin-left: 65px;
+  }
+
+  .ux-ui-card-img {
+    margin-left: 90px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .our-services-wrapper {
+    margin-top: 1130px;
+  }
+
+  .our-services-figure {
+    width: 95%;
+  }
+
+  .our-services-figure-img {
+    left: 36%;
+  }
+
+  .our-services-heading {
+    left: 57%;
+  }
+
+  .network-setup-card-img {
+    margin-left: 50px;
+  }
+
+  .help-desk-card-img {
+    margin-left: 50px;
+  }
+
+  .data-backup-card-img {
+    margin-left: 75px;
+  }
+
+  .it-consulting-card-img {
+    margin-left: 65px;
+  }
+
+  .web-design-card-img {
+    margin-left: 90px;
+  }
+
+  .graphic-design-card-img {
+    margin-left: 45px;
+  }
+
+  .ux-ui-card-img {
+    margin-left: 65px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .our-services-wrapper {
+    margin-top: 1130px;
+  }
+
+  .our-services-figure {
+    width: 100%;
+    height: 750px;
+  }
+
+  .our-services-figure-img {
+    left: 30%;
+  }
+
+  .our-services-heading {
+    top: -153px;
+    left: 54%;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .our-services-wrapper {
+    margin-top: 1190px;
+  }
+
+  .network-setup-card-img {
+    margin-left: 30px;
+  }
+
+  .help-desk-card-img {
+    margin-left: 30px;
+  }
+
+  .data-backup-card-img {
+    margin-left: 45px;
+  }
+
+  .it-consulting-card-img {
+    margin-left: 35px;
+  }
+
+  .web-design-card-img {
+    margin-left: 60px;
+  }
+
+  .graphic-design-card-img {
+    margin-left: 25px;
+  }
+
+  .ux-ui-card-img {
+    margin-left: 45px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .our-services-wrapper {
+    margin-top: 1280px;
+  }
+
+  .network-setup-card-img {
+    margin-left: 10px;
+  }
+
+  .help-desk-card-img {
+    margin-left: 5px;
+  }
+
+  .data-backup-card-img {
+    margin-left: 25px;
+  }
+
+  .it-consulting-card-img {
+    margin-left: 20px;
+  }
+
+  .web-design-card-img {
+    margin-left: 40px;
+  }
+
+  .graphic-design-card-img {
+    margin-left: 10px;
+  }
+
+  .ux-ui-card-img {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .our-services-figure {
+    width: 110%;
+  }
+
+  .our-services-figure-img {
+    left: 21%;
+  }
+
+  .our-services-heading {
+    left: 50%;
+  }
+
+  .network-setup-card-img {
+    margin-left: 0;
+  }
+
+  .help-desk-card-img {
+    margin-left: -15px;
+  }
+
+  .data-backup-card-img {
+    margin-left: 10px;
+  }
+
+  .it-consulting-card-img {
+    margin-left: 5px;
+  }
+
+  .web-design-card-img {
+    margin-left: 25px;
+  }
+
+  .graphic-design-card-img {
+    margin-left: -10px;
+  }
+
+  .ux-ui-card-img {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .our-services-wrapper {
+    margin-top: 1340px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .our-services-wrapper {
+    margin-top: 1140px;
+  }
+
+  .network-setup-card-img {
+    margin-left: -15px;
+  }
+
+  .help-desk-card-img {
+    margin-left: -30px;
+  }
+
+  .data-backup-card-img {
+    margin-left: 0;
+  }
+
+  .it-consulting-card-img {
+    margin-left: -10px;
+  }
+
+  .web-design-card-img {
+    margin-left: 15px;
+  }
+
+  .graphic-design-card-img {
+    margin-left: -25px;
+  }
+
+  .ux-ui-card-img {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .our-services-wrapper {
+    margin-top: 1200px;
+  }
+
+  .network-setup-card-img {
+    margin-left: -25px;
+  }
+
+  .help-desk-card-img {
+    margin-left: -40px;
+  }
+
+  .data-backup-card-img {
+    margin-left: -15px;
+  }
+
+  .it-consulting-card-img {
+    margin-left: -35px;
+  }
+
+  .web-design-card-img {
+    margin-left: 5px;
+  }
+
+  .graphic-design-card-img {
+    margin-left: -40px;
+  }
+
+  .ux-ui-card-img {
+    margin-left: -15px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .our-services-wrapper {
+    margin-top: 1250px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .network-setup-card-img {
+    margin-left: 100px;
+  }
+
+  .help-desk-card-img {
+    margin-left: 100px;
+  }
+
+  .data-backup-card-img {
+    margin-left: 140px;
+  }
+
+  .it-consulting-card-img {
+    margin-left: 130px;
+  }
+
+  .web-design-card-img {
+    margin-left: 150px;
+  }
+
+  .graphic-design-card-img {
+    margin-left: 110px;
+  }
+
+  .ux-ui-card-img {
+    margin-left: 120px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .our-services-wrapper {
+    margin-top: 1320px;
+  }
+
+  .network-setup-card-img {
+    margin-left: 70px;
+  }
+
+  .help-desk-card-img {
+    margin-left: 70px;
+  }
+
+  .data-backup-card-img {
+    margin-left: 110px;
+  }
+
+  .it-consulting-card-img {
+    margin-left: 100px;
+  }
+
+  .web-design-card-img {
+    margin-left: 120px;
+  }
+
+  .graphic-design-card-img {
+    margin-left: 80px;
+  }
+
+  .ux-ui-card-img {
+    margin-left: 110px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .our-services-wrapper {
+    margin-top: 1390px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .our-services-wrapper {
+    margin-top: 1320px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .our-services-wrapper {
+    margin-top: 1380px;
+  }
+
+  .our-services-figure {
+    width: 120%;
+  }
+
+  .our-services-figure-img {
+    left: 15%;
+  }
+
+  .our-services-heading {
+    left: 48%;
+  }
+
+  .network-setup-card-img {
+    margin-left: 45px;
+  }
+
+  .help-desk-card-img {
+    margin-left: 40px;
+  }
+
+  .data-backup-card-img {
+    margin-left: 70px;
+  }
+
+  .it-consulting-card-img {
+    margin-left: 60px;
+  }
+
+  .web-design-card-img {
+    margin-left: 85px;
+  }
+
+  .graphic-design-card-img {
+    margin-left: 50px;
+  }
+
+  .ux-ui-card-img {
+    margin-left: 75px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .our-services-wrapper {
+    margin-top: 1410px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .our-services-wrapper {
+    margin-top: 1290px;
+  }
+
+  .our-services-figure {
+    height: 650px;
+  }
+
+  .our-services-heading {
+    top: -110px;
+  }
+
+  .network-setup-card-img {
+    margin-left: 25px;
+  }
+
+  .help-desk-card-img {
+    margin-left: 25px;
+  }
+
+  .data-backup-card-img {
+    margin-left: 50px;
+  }
+
+  .it-consulting-card-img {
+    margin-left: 35px;
+  }
+
+  .web-design-card-img {
+    margin-left: 60px;
+  }
+
+  .graphic-design-card-img {
+    margin-left: 30px;
+  }
+
+  .ux-ui-card-img {
+    margin-left: 45px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .our-services-wrapper {
+    margin-top: 1300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .our-services-wrapper {
+    margin-top: 1370px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .our-services-wrapper {
+    margin-top: 1430px;
+  }
+
+  .network-setup-card-img {
+    margin-left: 0;
+  }
+
+  .help-desk-card-img {
+    margin-left: -10px;
+  }
+
+  .data-backup-card-img {
+    margin-left: 15px;
+  }
+
+  .it-consulting-card-img {
+    margin-left: 0;
+  }
+
+  .web-design-card-img {
+    margin-left: 35px;
+  }
+
+  .graphic-design-card-img {
+    margin-left: -10px;
+  }
+
+  .ux-ui-card-img {
+    margin-left: 10px;
+  }
 }

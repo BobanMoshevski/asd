@@ -117,7 +117,6 @@
   .home-heading-text {
     font-size: 2rem;
     width: 60%;
-    top: 15%;
   }
 
   .home-heading-button {
@@ -135,10 +134,15 @@
 @media screen and (max-width: 720px) {
   .home-heading-text {
     font-size: 1.8rem;
+    top: 25%;
   }
 
   .home-heading-text-normal {
     font-size: 1.3rem;
+  }
+
+  .home-heading-button {
+    top: 45%;
   }
 }
 
@@ -170,7 +174,7 @@
   }
 
   .home-heading-button {
-    top: 28%;
+    top: 45%;
   }
 }
 
@@ -181,6 +185,11 @@
 
   .home-heading-text {
     font-size: 1.4rem;
+    top: 32%;
+  }
+
+  .home-heading-button {
+    top: 55%;
   }
 }
 

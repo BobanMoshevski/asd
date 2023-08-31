@@ -1,7 +1,6 @@
 import { homeTopFigures } from "../../util/data/dataDetails";
-import "./HomeTopFiguresStyle.css";
-
 import HomeHeading from "../homeHeading/HomeHeading";
+import "./HomeTopFiguresStyle.css";
 
 const HomeTopFigures = () => {
   const topFigures = homeTopFigures;

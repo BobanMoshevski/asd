@@ -79,9 +79,9 @@ export const whatMakesUsHeading = {
 
 export const whatMakesUsText = {
   leftText:
-    "At Dark force, we thrive on what sets us apart because we believe that our differences makes us better. Our team is diverse blend of IT experts, each bringing unique skills, backgrounds, and perspectives to the table. We embrace this diversity as a driving force behind our success. By harnessing our collective knowledge and experiences, we deliver innovative IT solutions that meet the evolving needs of our clients. Our collaborative approach ensures that we leverage our diverse perspectives to tackle challenges head-on.",
+    "At Cyborpixel, we thrive on what sets us apart because we believe that our differences makes us better. Our team is diverse blend of IT experts, each bringing unique skills, backgrounds, and perspectives to the table. We embrace this diversity as a driving force behind our success. By harnessing our collective knowledge and experiences, we deliver innovative IT solutions that meet the evolving needs of our clients. Our collaborative approach ensures that we leverage our diverse perspectives to tackle challenges head-on.",
   rightText:
-    "We believe in thinking outside the box and finding tailored solutions that make a real impact. With our online IT services, we bring cutting-edge technology, industry expertise, and personalized support directly to your fingertips. We understand that every client is unique, and we work closely with you to provide tailored solutions that align with your goals. Trust in our team's expertise and experience. Together, we'll leverage our differences to drive your success and take your IT infrastructure to new heights",
+    "We believe in thinking outside the box and finding tailored solutions that make a real impact. With our online IT services, we bring cutting-edge technology, industry expertise, and personalized support directly to your fingertips. We understand that every client is unique, and we work closely with you to provide tailored solutions that align with your goals. Trust in our team's expertise and experience. Together, we'll leverage our differences to drive your success and take your IT infrastructure to new heights.",
 };
 
 // Home page (our services)
@@ -99,73 +99,52 @@ export const ourServicesHeading = {
 
 export const cardsDetail = [
   {
+    headingClassName: "network-setup-card-heading",
+    imageClassName: "network-setup-card-img",
     cardImageSrc: require("../../images/cyborpixel-09.png"),
     cardName: "Network setup and management",
-    cardWidth: "200px",
-    cardHeight: "200px",
-    cardImgMarginTop: "-120px",
-    cardHeadingMarginTop: "0",
-    cardHeadingMarginBottom: "40px",
     cardBtnPath: "/services/network-setup-and-management",
   },
   {
+    headingClassName: "help-desk-card-heading",
+    imageClassName: "help-desk-card-img",
     cardImageSrc: require("../../images/cyborpixel-20.png"),
     cardName: "Help desk and technical support",
-    cardWidth: "240px",
-    cardHeight: "240px",
-    cardImgMarginTop: "-110px",
-    cardHeadingMarginTop: "-53px",
-    cardHeadingMarginBottom: "40px",
     cardBtnPath: "/services/help-desk-and-technical-support",
   },
   {
+    headingClassName: "data-backup-card-heading",
+    imageClassName: "data-backup-card-img",
     cardImageSrc: require("../../images/cyborpixel-24.png"),
     cardName: "Data backup and recovery",
-    cardWidth: "190px",
-    cardHeight: "190px",
-    cardImgMarginTop: "-110px",
-    cardHeadingMarginTop: "-4px",
-    cardHeadingMarginBottom: "72px",
     cardBtnPath: "/services/data-backup-and-recovery",
   },
   {
+    headingClassName: "it-consulting-card-heading",
+    imageClassName: "it-consulting-card-img",
     cardImageSrc: require("../../images/cyborpixel-21.png"),
     cardName: "IT consulting and strategy",
-    cardWidth: "210px",
-    cardHeight: "210px",
-    cardImgMarginTop: "-120px",
-    cardHeadingMarginTop: "0",
-    cardHeadingMarginBottom: "40px",
     cardBtnPath: "/services/it-consulting-and-strategy",
   },
   {
+    headingClassName: "web-design-card-heading",
+    imageClassName: "web-design-card-img",
     cardImageSrc: require("../../images/cyborpixel-22.png"),
     cardName: "Web design",
-    cardWidth: "170px",
-    cardHeight: "170px",
-    cardImgMarginTop: "-80px",
-    cardHeadingMarginTop: "0",
-    cardHeadingMarginBottom: "70px",
     cardBtnPath: "/services/web-design",
   },
   {
+    headingClassName: "graphic-design-card-heading",
+    imageClassName: "graphic-design-card-img",
     cardImageSrc: require("../../images/cyborpixel-23.png"),
     cardName: "Graphic design",
-    cardWidth: "200px",
-    cardHeight: "200px",
-    cardImgMarginTop: "-115px",
-    cardHeadingMarginTop: "3px",
-    cardHeadingMarginBottom: "70px",
     cardBtnPath: "/services/graphic-design",
   },
   {
+    headingClassName: "ux-ui-card-heading",
+    imageClassName: "ux-ui-card-img",
     cardImageSrc: require("../../images/cyborpixel-25.png"),
     cardName: "UI/UX design",
-    cardWidth: "170px",
-    cardHeight: "170px",
-    cardImgMarginTop: "-110px",
-    cardHeadingMarginTop: "3px",
-    cardHeadingMarginBottom: "70px",
     cardBtnPath: "/services/ui-ux-design",
   },
 ];
@@ -181,9 +160,6 @@ export const whyChooseUsFigure = {
 export const whyChooseUsHeading = {
   headingClassName: "heading font-color why-choose-heading",
   heading: "WHY CHOOSE US?",
-  headingMarginLeft: "25%",
-  headingMarginTop: "-500px",
-  headingMarginBottom: "150px",
 };
 
 export const whyChooseUsCards = [
@@ -225,7 +201,7 @@ export const contactUsHeading = {
 export const homeBottomFigures = [
   {
     figureClassName: "bottom-figure-1",
-    figureImgSrc: require("../../images/cyborpixel-03.png"),
+    figureImgSrc: require("../../images/cyborpixel-34.png"),
     figureImgAlt: "Home bottom figure 1",
   },
   {

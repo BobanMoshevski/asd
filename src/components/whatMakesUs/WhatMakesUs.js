@@ -14,16 +14,7 @@ const WhatMakesUs = () => {
   const textDetail = whatMakesUsText;
 
   return (
-    <div
-      style={{
-        position: "absolute",
-        width: "100%",
-        minHeight: "100vh",
-        overflow: "hidden",
-        marginTop: "720px",
-        zIndex: 4,
-      }}
-    >
+    <div className="what-makes-us-wrapper">
       <div className={figureDetail.divClassName}>
         <FigureComponent figureDetails={figureDetail} />
       </div>
