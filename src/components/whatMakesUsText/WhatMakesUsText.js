@@ -10,8 +10,9 @@ const WhatMakesUsText = ({ textDetails }) => {
           xs={8}
           md={4}
           sx={{
+            marginTop: { md: "-10px", sm: "0" },
             marginLeft: {
-              xs: "50px",
+              xs: "0",
               md: "170px",
               lg: "200px",
               xl: "200px",
@@ -28,10 +29,10 @@ const WhatMakesUsText = ({ textDetails }) => {
           sx={{
             marginTop: {
               xs: "70px",
-              md: "0",
+              md: "-10px",
             },
             marginRight: {
-              xs: "-50px",
+              xs: "0",
               md: "100px",
               lg: "150px",
               xl: "200px",

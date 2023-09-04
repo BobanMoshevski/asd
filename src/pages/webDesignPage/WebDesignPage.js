@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Grid } from "@mui/material";
+import { motion } from "framer-motion";
 import {
   webDesignFigure,
   webDesignHeading,
@@ -12,9 +13,11 @@ import HeadingComponent from "../../components/headingComponent/HeadingComponent
 import ImageComponent from "../../components/imageComponent/ImageComponent";
 import TextContent from "../../components/textContent/TextContent";
 import "./WebDesignPageStyle.css";
+import { pageVariant } from "../../util/animateVariants/animateVariants";
 
 const WebDesignPage = () => {
   const { pathname } = useLocation();
+  const pageVariants = pageVariant;
   const figureDetail = webDesignFigure;
   const headingDetail = webDesignHeading;
   const imageDetail = webDesignImage;
@@ -27,12 +30,12 @@ const WebDesignPage = () => {
   return (
     <Grid container>
       <Grid item xs={12}>
-        <div
-          style={{
-            width: "100%",
-            minHeight: "90vh",
-            overflow: "hidden",
-          }}
+        <motion.div
+          className="web-design-wrapper"
+          variants={pageVariants}
+          initial="initial"
+          animate="animate"
+          exit="exit"
         >
           <div className={figureDetail.divClassName}>
             <FigureComponent figureDetails={figureDetail} />
@@ -45,7 +48,7 @@ const WebDesignPage = () => {
           </div>
 
           <TextContent textDetails={textDetail} />
-        </div>
+        </motion.div>
       </Grid>
     </Grid>
   );

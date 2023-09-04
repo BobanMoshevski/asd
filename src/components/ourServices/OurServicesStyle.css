@@ -28,8 +28,10 @@
 }
 
 .our-services-card-wrapper {
+  display: flex;
+  justify-content: center;
   padding: 0;
-  width: 100%;
+  width: 94%;
   height: 100%;
   border: 1px solid white;
   border-radius: 0 25% 0 0;
@@ -38,12 +40,12 @@
 .our-services-card {
   background: inherit;
   padding: 10px 25px;
-  width: 100%;
+  width: 96%;
   height: 100%;
+  margin-top: 7px;
   margin-left: 5px;
-  margin-top: 5px;
   border: 1px solid white;
-  border-radius: 0 25% 0 0;
+  border-radius: 0 21% 0 0;
   overflow: visible;
 }
 

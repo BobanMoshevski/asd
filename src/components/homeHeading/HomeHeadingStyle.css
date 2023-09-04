@@ -4,7 +4,7 @@
   margin: 0 auto;
   width: 40%;
   position: relative;
-  top: 20%;
+  top: 30%;
   z-index: 14;
 }
 
@@ -15,7 +15,7 @@
 
 .home-heading-button {
   position: relative;
-  top: 44%;
+  top: 54%;
   width: 9%;
   margin: 0 auto;
   z-index: 13;
@@ -83,6 +83,16 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .home-heading-text {
+    top: 28%;
+  }
+
+  .home-heading-button {
+    top: 52%;
+  }
+}
+
 @media screen and (max-width: 990px) {
   .home-heading-button {
     width: 17%;
@@ -122,6 +132,16 @@
   .home-heading-button {
     top: 32%;
     width: 21%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-heading-text {
+    top: 33%;
+  }
+
+  .home-heading-button {
+    top: 52%;
   }
 }
 

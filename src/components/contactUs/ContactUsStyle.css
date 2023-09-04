@@ -17,18 +17,18 @@
   width: 100%;
   height: 100%;
   top: 70px;
-  left: -45%;
+  left: -58.3%;
 }
 
 .contact-us-heading {
   position: relative;
   top: -490px;
-  left: 29%;
+  left: 14%;
 }
 
 .contact-wrapper {
   margin-top: -385px;
-  margin-left: 25%;
+  margin-left: 15%;
 }
 
 .contact-heading {
@@ -255,8 +255,16 @@
 }
 
 @media screen and (max-width: 1440px) {
+  .contact-us-figure-img {
+    left: -56%;
+  }
+
   .contact-us-heading {
-    left: 25%;
+    left: 12%;
+  }
+
+  .contact-wrapper {
+    margin-left: 14.2%;
   }
 
   .bottom-figure-2 {
@@ -467,11 +475,12 @@
 
   .contact-us-figure-img {
     top: 0;
+    left: -55%;
   }
 
   .contact-us-heading {
     top: -464px;
-    left: 39%;
+    left: 19%;
   }
 
   .bottom-figure-1 {
@@ -688,7 +697,7 @@
 
   .contact-us-heading {
     top: -404px;
-    left: 35%;
+    left: 15%;
   }
 
   .contact-wrapper {
@@ -967,6 +976,10 @@
     height: 550px;
   }
 
+  .contact-us-figure-img {
+    left: -41.5%;
+  }
+
   .contact-us-heading {
     top: -340px;
     left: 23%;
@@ -974,6 +987,7 @@
 
   .contact-wrapper {
     margin-top: -270px;
+    margin-left: 10%;
   }
 
   .contact-heading {
@@ -994,27 +1008,27 @@
     width: 590px;
     height: 250px;
     top: -170px;
-    left: -13.5%;
+    left: -14%;
   }
 
   .bottom-image {
     width: 140px;
     height: 140px;
-    top: -658px;
+    top: -567px;
     left: 61%;
   }
 
   .bottom-figure-3 {
     width: 390px;
-    height: 600px;
-    top: -1013px;
+    height: 500px;
+    top: -870px;
     left: 42%;
   }
 
   .bottom-figure-4 {
     width: 550px;
     height: 250px;
-    top: -1207px;
+    top: -1060px;
     left: 31%;
   }
 }

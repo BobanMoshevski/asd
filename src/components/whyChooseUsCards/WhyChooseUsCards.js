@@ -6,11 +6,12 @@ const WhyChooseUsCards = ({ cardsDetails }) => {
     <Container>
       <Grid
         container
-        spacing={7}
+        spacing={10}
         sx={{
+          padding: { sm: "0 70px 0 30px" },
           display: "flex",
           justifyContent: "space-around",
-          marginTop: "-380px",
+          marginTop: "-400px",
         }}
       >
         {cardsDetails.map((cardDetail, index) => (
@@ -18,9 +19,9 @@ const WhyChooseUsCards = ({ cardsDetails }) => {
             item
             xs={9}
             sm={8}
-            md={5}
+            md={6}
             key={index}
-            sx={{ marginBottom: "10px" }}
+            sx={{ marginBottom: { sm: "-20px", md: "10px" } }}
           >
             <WhyChooseCard cardDetail={cardDetail} />
           </Grid>

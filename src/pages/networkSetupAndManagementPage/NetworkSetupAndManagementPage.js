@@ -31,15 +31,11 @@ const NetworkSetupAndManagementPage = () => {
     <Grid container>
       <Grid item xs={12}>
         <motion.div
+          className="network-setup-wrapper"
           variants={pageVariants}
           initial="initial"
           animate="animate"
           exit="exit"
-          style={{
-            width: "100%",
-            minHeight: "90vh",
-            overflow: "hidden",
-          }}
         >
           <div className={figureDetail.divClassName}>
             <FigureComponent figureDetails={figureDetail} />

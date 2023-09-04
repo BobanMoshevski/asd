@@ -1,3 +1,9 @@
+.web-design-wrapper {
+  width: 100%;
+  min-height: 90vh;
+  overflow: hidden;
+}
+
 .web-design-figure {
   width: 115%;
   height: 850px;

@@ -1,3 +1,9 @@
+.data-backup-wrapper {
+  width: 100%;
+  min-height: 90vh;
+  overflow: hidden;
+}
+
 .data-backup-figure {
   width: 115%;
   height: 850px;

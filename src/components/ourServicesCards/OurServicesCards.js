@@ -7,16 +7,25 @@ const OurServicesCards = ({ cardsDetails }) => {
       <Grid
         container
         spacing={7}
-        sx={{ marginTop: { xs: "10px", md: "-50px" } }}
+        sx={{
+          marginTop: {
+            xs: "10px",
+            md: "-50px",
+            display: "flex",
+            justifyContent: "center",
+          },
+        }}
       >
         {cardsDetails.map((cardDetail, index) => (
           <Grid
             item
-            xs={12}
-            sm={6}
+            xs={10}
+            sm={5}
             lg={4}
             key={index}
-            sx={{ marginBottom: "40px" }}
+            sx={{
+              marginBottom: "40px",
+            }}
           >
             <ServicesCards cardDetail={cardDetail} />
           </Grid>

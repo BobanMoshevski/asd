@@ -1,3 +1,9 @@
+.it-consulting-wrapper {
+  width: 100%;
+  min-height: 90vh;
+  overflow: hidden;
+}
+
 .it-consulting-figure {
   width: 115%;
   height: 850px;

@@ -17,11 +17,11 @@ import { pageVariant } from "../../util/animateVariants/animateVariants";
 
 const HelpDeskAndTechnicalSupportPage = () => {
   const { pathname } = useLocation();
+  const pageVariants = pageVariant;
   const figureDetail = helpDeskAndTechnicalSupportFigure;
   const headingDetail = helpDeskAndTechnicalSupportHeading;
   const imageDetail = helpDeskAndTechnicalSupportImage;
   const textDetail = helpDeskAndTechnicalSupportText;
-  const pageVariants = pageVariant;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -31,15 +31,11 @@ const HelpDeskAndTechnicalSupportPage = () => {
     <Grid container>
       <Grid item xs={12}>
         <motion.div
+          className="help-desk-wrapper"
           variants={pageVariants}
           initial="initial"
           animate="animate"
           exit="exit"
-          style={{
-            width: "100%",
-            minHeight: "90vh",
-            overflow: "hidden",
-          }}
         >
           <div className={figureDetail.divClassName}>
             <FigureComponent figureDetails={figureDetail} />

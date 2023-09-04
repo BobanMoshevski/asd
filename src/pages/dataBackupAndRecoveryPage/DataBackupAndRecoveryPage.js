@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Grid } from "@mui/material";
+import { motion } from "framer-motion";
+import { pageVariant } from "../../util/animateVariants/animateVariants";
 import {
   dataBackupAndRecoveryFigure,
   dataBackupAndRecoveryHeading,
@@ -15,6 +17,7 @@ import "./DataBackupAndRecoveryPageStyle.css";
 
 const DataBackupAndRecoveryPage = () => {
   const { pathname } = useLocation();
+  const pageVariants = pageVariant;
   const figureDetail = dataBackupAndRecoveryFigure;
   const headingDetail = dataBackupAndRecoveryHeading;
   const imageDetail = dataBackupAndRecoveryImage;
@@ -27,12 +30,12 @@ const DataBackupAndRecoveryPage = () => {
   return (
     <Grid container>
       <Grid item xs={12}>
-        <div
-          style={{
-            width: "100%",
-            minHeight: "90vh",
-            overflow: "hidden",
-          }}
+        <motion.div
+          className="data-backup-wrapper"
+          variants={pageVariants}
+          initial="initial"
+          animate="animate"
+          exit="exit"
         >
           <div className={figureDetail.divClassName}>
             <FigureComponent figureDetails={figureDetail} />
@@ -45,7 +48,7 @@ const DataBackupAndRecoveryPage = () => {
           </div>
 
           <TextContent textDetails={textDetail} />
-        </div>
+        </motion.div>
       </Grid>
     </Grid>
   );

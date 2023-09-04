@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Grid } from "@mui/material";
+import { motion } from "framer-motion";
 import {
   itConsultingAndStrategyFigure,
   itConsultingAndStrategyHeading,
@@ -12,9 +13,11 @@ import HeadingComponent from "../../components/headingComponent/HeadingComponent
 import ImageComponent from "../../components/imageComponent/ImageComponent";
 import TextContent from "../../components/textContent/TextContent";
 import "./ItConsultingAndStrategyPageStyle.css";
+import { pageVariant } from "../../util/animateVariants/animateVariants";
 
 const ItConsultingAndStrategyPage = () => {
   const { pathname } = useLocation();
+  const pageVariants = pageVariant;
   const figureDetail = itConsultingAndStrategyFigure;
   const headingDetail = itConsultingAndStrategyHeading;
   const imageDetail = itConsultingAndStrategyImage;
@@ -27,12 +30,12 @@ const ItConsultingAndStrategyPage = () => {
   return (
     <Grid container>
       <Grid item xs={12}>
-        <div
-          style={{
-            width: "100%",
-            minHeight: "90vh",
-            overflow: "hidden",
-          }}
+        <motion.div
+          className="it-consulting-wrapper"
+          variants={pageVariants}
+          initial="initial"
+          animate="animate"
+          exit="exit"
         >
           <div className={figureDetail.divClassName}>
             <FigureComponent figureDetails={figureDetail} />
@@ -45,7 +48,7 @@ const ItConsultingAndStrategyPage = () => {
           </div>
 
           <TextContent textDetails={textDetail} />
-        </div>
+        </motion.div>
       </Grid>
     </Grid>
   );

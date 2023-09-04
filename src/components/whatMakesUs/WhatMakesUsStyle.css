@@ -326,13 +326,7 @@
   }
 
   .what-makes-heading {
-    left: 9%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .what-makes-heading {
-    left: 6%;
+    left: 10%;
   }
 }
 
@@ -483,6 +477,18 @@
 @media screen and (max-width: 425px) {
   .what-makes-us-wrapper {
     height: 190vh;
+  }
+
+  .what-makes-figure-img {
+    left: -42%;
+  }
+
+  .what-makes-figure {
+    width: 235%;
+  }
+
+  .what-makes-heading {
+    padding: 0 20px 0 10px;
   }
 }
 
