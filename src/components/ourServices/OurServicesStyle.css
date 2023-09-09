@@ -45,7 +45,7 @@
   margin-top: 7px;
   margin-left: 5px;
   border: 1px solid white;
-  border-radius: 0 21% 0 0;
+  border-radius: 0 20% 0 0;
   overflow: visible;
 }
 
@@ -54,115 +54,116 @@
 }
 
 .network-setup-card-img {
-  width: 230px;
-  height: 230px;
-  margin-top: -110px;
-  margin-left: 5px;
+  width: 300px;
+  height: 300px;
+  margin-top: -140px;
+  margin-left: -40px;
 }
 
 .network-setup-card-heading {
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 60px;
 }
 
 .help-desk-card-img {
-  width: 260px;
-  height: 260px;
-  margin-top: -95px;
-  margin-left: -5px;
+  width: 330px;
+  height: 330px;
+  margin-top: -145px;
+  margin-left: -60px;
 }
 
 .help-desk-card-heading {
-  margin-top: -17px;
-  margin-bottom: 62px;
+  margin-top: -12px;
+  margin-bottom: 63px;
 }
 
 .data-backup-card-img {
-  width: 200px;
-  height: 200px;
-  margin-top: -95px;
-  margin-left: 20px;
+  width: 300px;
+  height: 300px;
+  margin-top: -150px;
+  margin-left: -50px;
 }
 
 .data-backup-card-heading {
-  margin-top: 43px;
-  margin-bottom: 88px;
+  margin-top: 21px;
+  margin-bottom: 65px;
 }
 
 .it-consulting-card-img {
-  width: 250px;
-  height: 250px;
-  margin-top: -125px;
+  width: 270px;
+  height: 270px;
+  margin-top: -135px;
+  margin-left: -35px;
 }
 
 .it-consulting-card-heading {
-  margin-top: 23px;
-  margin-bottom: 88px;
+  margin-top: 35px;
+  margin-bottom: 66px;
 }
 
 .web-design-card-img {
-  width: 190px;
-  height: 190px;
-  margin-top: -75px;
-  margin-left: 30px;
+  width: 270px;
+  height: 270px;
+  margin-top: -123px;
+  margin-left: -6px;
 }
 
 .web-design-card-heading {
-  margin-top: 33px;
-  margin-bottom: 88px;
+  margin-top: 25px;
+  margin-bottom: 90px;
 }
 
 .graphic-design-card-img {
-  width: 225px;
-  height: 225px;
-  margin-top: -110px;
+  width: 260px;
+  height: 260px;
+  margin-top: -108px;
   margin-left: -10px;
 }
 
 .graphic-design-card-heading {
-  margin-top: 33px;
-  margin-bottom: 88px;
+  margin-top: 21px;
+  margin-bottom: 89px;
 }
 
 .ux-ui-card-img {
-  width: 180px;
-  height: 180px;
-  margin-top: -100px;
-  margin-left: 10px;
+  width: 230px;
+  height: 230px;
+  margin-top: -110px;
+  margin-left: 2px;
 }
 
 .ux-ui-card-heading {
-  margin-top: 66px;
-  margin-bottom: 90px;
+  margin-top: 55px;
+  margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1199px) {
   .network-setup-card-img {
-    margin-left: 70px;
+    margin-left: -5px;
   }
 
   .help-desk-card-img {
-    margin-left: 80px;
+    margin-left: -25px;
   }
 
   .data-backup-card-img {
-    margin-left: 95px;
+    margin-left: -15px;
   }
 
   .it-consulting-card-img {
-    margin-left: 85px;
+    margin-left: -5px;
   }
 
   .web-design-card-img {
-    margin-left: 105px;
+    margin-left: 20px;
   }
 
   .graphic-design-card-img {
-    margin-left: 65px;
+    margin-left: 5px;
   }
 
   .ux-ui-card-img {
-    margin-left: 90px;
+    margin-left: 25px;
   }
 }
 
@@ -184,31 +185,31 @@
   }
 
   .network-setup-card-img {
-    margin-left: 50px;
+    margin-left: -20px;
   }
 
   .help-desk-card-img {
-    margin-left: 50px;
+    margin-left: -45px;
   }
 
   .data-backup-card-img {
-    margin-left: 75px;
+    margin-left: -35px;
   }
 
   .it-consulting-card-img {
-    margin-left: 65px;
+    margin-left: -25px;
   }
 
   .web-design-card-img {
-    margin-left: 90px;
+    margin-left: 10px;
   }
 
   .graphic-design-card-img {
-    margin-left: 45px;
+    margin-left: -10px;
   }
 
   .ux-ui-card-img {
-    margin-left: 65px;
+    margin-left: 10px;
   }
 }
 
@@ -238,31 +239,31 @@
   }
 
   .network-setup-card-img {
-    margin-left: 30px;
+    margin-left: -45px;
   }
 
   .help-desk-card-img {
-    margin-left: 30px;
+    margin-left: -65px;
   }
 
   .data-backup-card-img {
-    margin-left: 45px;
+    margin-left: -60px;
   }
 
   .it-consulting-card-img {
-    margin-left: 35px;
+    margin-left: -45px;
   }
 
   .web-design-card-img {
-    margin-left: 60px;
+    margin-left: -15px;
   }
 
   .graphic-design-card-img {
-    margin-left: 25px;
+    margin-left: -20px;
   }
 
   .ux-ui-card-img {
-    margin-left: 45px;
+    margin-left: -5px;
   }
 }
 
@@ -270,33 +271,35 @@
   .our-services-wrapper {
     margin-top: 1280px;
   }
+}
 
+@media screen and (max-width: 850px) {
   .network-setup-card-img {
-    margin-left: 10px;
+    margin-left: -55px;
   }
 
   .help-desk-card-img {
-    margin-left: 5px;
+    margin-left: -85px;
   }
 
   .data-backup-card-img {
-    margin-left: 25px;
+    margin-left: -70px;
   }
 
   .it-consulting-card-img {
-    margin-left: 20px;
+    margin-left: -55px;
   }
 
   .web-design-card-img {
-    margin-left: 40px;
+    margin-left: -30px;
   }
 
   .graphic-design-card-img {
-    margin-left: 10px;
+    margin-left: -35px;
   }
 
   .ux-ui-card-img {
-    margin-left: 30px;
+    margin-left: -20px;
   }
 }
 
@@ -314,31 +317,31 @@
   }
 
   .network-setup-card-img {
-    margin-left: 0;
+    margin-left: -70px;
   }
 
   .help-desk-card-img {
-    margin-left: -15px;
+    margin-left: -95px;
   }
 
   .data-backup-card-img {
-    margin-left: 10px;
+    margin-left: -85px;
   }
 
   .it-consulting-card-img {
-    margin-left: 5px;
+    margin-left: -70px;
   }
 
   .web-design-card-img {
-    margin-left: 25px;
+    margin-left: -45px;
   }
 
   .graphic-design-card-img {
-    margin-left: -10px;
+    margin-left: -50px;
   }
 
   .ux-ui-card-img {
-    margin-left: 10px;
+    margin-left: -40px;
   }
 }
 
@@ -352,67 +355,11 @@
   .our-services-wrapper {
     margin-top: 1140px;
   }
-
-  .network-setup-card-img {
-    margin-left: -15px;
-  }
-
-  .help-desk-card-img {
-    margin-left: -30px;
-  }
-
-  .data-backup-card-img {
-    margin-left: 0;
-  }
-
-  .it-consulting-card-img {
-    margin-left: -10px;
-  }
-
-  .web-design-card-img {
-    margin-left: 15px;
-  }
-
-  .graphic-design-card-img {
-    margin-left: -25px;
-  }
-
-  .ux-ui-card-img {
-    margin-left: 0;
-  }
 }
 
 @media screen and (max-width: 660px) {
   .our-services-wrapper {
     margin-top: 1200px;
-  }
-
-  .network-setup-card-img {
-    margin-left: -25px;
-  }
-
-  .help-desk-card-img {
-    margin-left: -40px;
-  }
-
-  .data-backup-card-img {
-    margin-left: -15px;
-  }
-
-  .it-consulting-card-img {
-    margin-left: -35px;
-  }
-
-  .web-design-card-img {
-    margin-left: 5px;
-  }
-
-  .graphic-design-card-img {
-    margin-left: -40px;
-  }
-
-  .ux-ui-card-img {
-    margin-left: -15px;
   }
 }
 
@@ -424,31 +371,31 @@
 
 @media screen and (max-width: 599px) {
   .network-setup-card-img {
-    margin-left: 100px;
+    margin-left: 10px;
   }
 
   .help-desk-card-img {
-    margin-left: 100px;
+    margin-left: -20px;
   }
 
   .data-backup-card-img {
-    margin-left: 140px;
+    margin-left: -5px;
   }
 
   .it-consulting-card-img {
-    margin-left: 130px;
+    margin-left: 0;
   }
 
   .web-design-card-img {
-    margin-left: 150px;
+    margin-left: 20px;
   }
 
   .graphic-design-card-img {
-    margin-left: 110px;
+    margin-left: 20px;
   }
 
   .ux-ui-card-img {
-    margin-left: 120px;
+    margin-left: 40px;
   }
 }
 
@@ -458,31 +405,31 @@
   }
 
   .network-setup-card-img {
-    margin-left: 70px;
+    margin-left: -10px;
   }
 
   .help-desk-card-img {
-    margin-left: 70px;
+    margin-left: -35px;
   }
 
   .data-backup-card-img {
-    margin-left: 110px;
+    margin-left: -20px;
   }
 
   .it-consulting-card-img {
-    margin-left: 100px;
+    margin-left: -10px;
   }
 
   .web-design-card-img {
-    margin-left: 120px;
+    margin-left: 10px;
   }
 
   .graphic-design-card-img {
-    margin-left: 80px;
+    margin-left: 10px;
   }
 
   .ux-ui-card-img {
-    margin-left: 110px;
+    margin-left: 30px;
   }
 }
 
@@ -516,31 +463,31 @@
   }
 
   .network-setup-card-img {
-    margin-left: 45px;
+    margin-left: -50px;
   }
 
   .help-desk-card-img {
-    margin-left: 40px;
+    margin-left: -75px;
   }
 
   .data-backup-card-img {
-    margin-left: 70px;
+    margin-left: -60px;
   }
 
   .it-consulting-card-img {
-    margin-left: 60px;
+    margin-left: -50px;
   }
 
   .web-design-card-img {
-    margin-left: 85px;
+    margin-left: -30px;
   }
 
   .graphic-design-card-img {
-    margin-left: 50px;
+    margin-left: -30px;
   }
 
   .ux-ui-card-img {
-    margin-left: 75px;
+    margin-left: -10px;
   }
 }
 
@@ -562,34 +509,6 @@
   .our-services-heading {
     top: -110px;
   }
-
-  .network-setup-card-img {
-    margin-left: 25px;
-  }
-
-  .help-desk-card-img {
-    margin-left: 25px;
-  }
-
-  .data-backup-card-img {
-    margin-left: 50px;
-  }
-
-  .it-consulting-card-img {
-    margin-left: 35px;
-  }
-
-  .web-design-card-img {
-    margin-left: 60px;
-  }
-
-  .graphic-design-card-img {
-    margin-left: 30px;
-  }
-
-  .ux-ui-card-img {
-    margin-left: 45px;
-  }
 }
 
 @media screen and (max-width: 410px) {
@@ -610,30 +529,56 @@
   }
 
   .network-setup-card-img {
-    margin-left: 0;
+    margin-left: -70px;
   }
 
   .help-desk-card-img {
-    margin-left: -10px;
+    margin-left: -105px;
   }
 
   .data-backup-card-img {
-    margin-left: 15px;
+    margin-left: -90px;
   }
 
   .it-consulting-card-img {
-    margin-left: 0;
+    margin-left: -75px;
   }
 
   .web-design-card-img {
-    margin-left: 35px;
+    margin-left: -50px;
   }
 
   .graphic-design-card-img {
-    margin-left: -10px;
+    margin-left: -50px;
   }
 
   .ux-ui-card-img {
-    margin-left: 10px;
+    margin-left: -35px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .our-services-wrapper {
+    margin-top: 1500px;
+  }
+
+  .our-services-card-wrapper {
+    width: 100%;
+  }
+
+  .our-services-card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .our-services-wrapper {
+    margin-top: 1550px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .our-services-wrapper {
+    margin-top: 1600px;
   }
 }

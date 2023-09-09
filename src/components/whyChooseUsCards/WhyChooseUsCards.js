@@ -8,7 +8,7 @@ const WhyChooseUsCards = ({ cardsDetails }) => {
         container
         spacing={10}
         sx={{
-          padding: { sm: "0 70px 0 30px" },
+          padding: { md: "0 70px 0 30px" },
           display: "flex",
           justifyContent: "space-around",
           marginTop: "-400px",
@@ -17,11 +17,11 @@ const WhyChooseUsCards = ({ cardsDetails }) => {
         {cardsDetails.map((cardDetail, index) => (
           <Grid
             item
-            xs={9}
-            sm={8}
+            xs={10}
+            sm={9}
             md={6}
             key={index}
-            sx={{ marginBottom: { sm: "-20px", md: "10px" } }}
+            sx={{ marginBottom: { sm: "-20px", md: "10px" }, zIndex: 2 }}
           >
             <WhyChooseCard cardDetail={cardDetail} />
           </Grid>

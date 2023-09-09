@@ -4,6 +4,8 @@ import "./HomeHeadingStyle.css";
 
 const HomeHeading = () => {
   const btnText = "LET'S TALK";
+  const btnPathTo = "/lets-talk";
+  const btnVariant = "contained";
 
   return (
     <>
@@ -30,7 +32,11 @@ const HomeHeading = () => {
       </div>
 
       <div className="home-heading-button">
-        <ButtonComponent btnText={btnText} />
+        <ButtonComponent
+          btnText={btnText}
+          to={btnPathTo}
+          variant={btnVariant}
+        />
       </div>
     </>
   );

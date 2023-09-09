@@ -3,6 +3,13 @@ import { useLocation } from "react-router-dom";
 import { Grid } from "@mui/material";
 import { motion } from "framer-motion";
 import {
+  itConsultingFigureVariant,
+  itConsultingHeadingVariant,
+  itConsultingImageVariant,
+  itConsultingTextVariant,
+  pageVariant,
+} from "../../util/animateVariants/animateVariants";
+import {
   itConsultingAndStrategyFigure,
   itConsultingAndStrategyHeading,
   itConsultingAndStrategyImage,
@@ -13,11 +20,14 @@ import HeadingComponent from "../../components/headingComponent/HeadingComponent
 import ImageComponent from "../../components/imageComponent/ImageComponent";
 import TextContent from "../../components/textContent/TextContent";
 import "./ItConsultingAndStrategyPageStyle.css";
-import { pageVariant } from "../../util/animateVariants/animateVariants";
 
 const ItConsultingAndStrategyPage = () => {
   const { pathname } = useLocation();
   const pageVariants = pageVariant;
+  const figureVariant = itConsultingFigureVariant;
+  const headingVariant = itConsultingHeadingVariant;
+  const imageVariant = itConsultingImageVariant;
+  const textVariant = itConsultingTextVariant;
   const figureDetail = itConsultingAndStrategyFigure;
   const headingDetail = itConsultingAndStrategyHeading;
   const imageDetail = itConsultingAndStrategyImage;
@@ -37,17 +47,27 @@ const ItConsultingAndStrategyPage = () => {
           animate="animate"
           exit="exit"
         >
-          <div className={figureDetail.divClassName}>
+          <motion.div
+            variants={figureVariant}
+            className={figureDetail.divClassName}
+          >
             <FigureComponent figureDetails={figureDetail} />
-          </div>
+          </motion.div>
 
-          <HeadingComponent headingDetails={headingDetail} />
+          <motion.div variants={headingVariant}>
+            <HeadingComponent headingDetails={headingDetail} />
+          </motion.div>
 
-          <div className={imageDetail.divClassName}>
+          <motion.div
+            variants={imageVariant}
+            className={imageDetail.divClassName}
+          >
             <ImageComponent imageDetails={imageDetail} />
-          </div>
+          </motion.div>
 
-          <TextContent textDetails={textDetail} />
+          <motion.div variants={textVariant}>
+            <TextContent textDetails={textDetail} />
+          </motion.div>
         </motion.div>
       </Grid>
     </Grid>

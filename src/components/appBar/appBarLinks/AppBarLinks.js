@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from "react-router-dom";
-import { Box } from "@mui/material";
 import { Link } from "react-scroll";
+import { Box } from "@mui/material";
 import { appBarLinks } from "../../../util/data/dataDetails";
 import classes from "./AppBarLinksStyle.module.css";
 

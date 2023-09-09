@@ -1,14 +1,14 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { motion } from "framer-motion";
 import { Grid } from "@mui/material";
+import { motion } from "framer-motion";
+import { pageVariant } from "../../util/animateVariants/animateVariants";
 import HomeTopFigures from "../../components/homeTopFigures/HomeTopFigures";
 import WhatMakesUs from "../../components/whatMakesUs/WhatMakesUs";
 import OurServices from "../../components/ourServices/OurServices";
 import WhyChooseUs from "../../components/whyChooseUs/WhyChooseUs";
 import ContactUs from "../../components/contactUs/ContactUs";
-// import Footer from "../../components/footer/Footer";
-import { pageVariant } from "../../util/animateVariants/animateVariants";
+import Footer from "../../components/footer/Footer";
 
 const HomePage = () => {
   const { pathname } = useLocation();
@@ -47,7 +47,7 @@ const HomePage = () => {
         </Grid>
       </Grid>
 
-      {/* <Footer /> */}
+      <Footer />
     </motion.div>
   );
 };

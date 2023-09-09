@@ -1,6 +1,6 @@
 .home-heading-text {
-  font-size: 3.5rem;
   text-align: center;
+  font-size: 3.5rem;
   margin: 0 auto;
   width: 40%;
   position: relative;
@@ -15,37 +15,15 @@
 
 .home-heading-button {
   position: relative;
+  width: 100%;
   top: 54%;
-  width: 9%;
-  margin: 0 auto;
+  text-align: center;
   z-index: 13;
-}
-
-@media screen and (max-width: 1740px) {
-  .home-heading-button {
-    width: 10%;
-  }
-}
-
-@media screen and (max-width: 1570px) {
-  .home-heading-button {
-    width: 11%;
-  }
-}
-
-@media screen and (max-width: 1430px) {
-  .home-heading-button {
-    width: 12%;
-  }
 }
 
 @media screen and (max-width: 1380px) {
   .home-heading-text {
     width: 45%;
-  }
-
-  .home-heading-button {
-    width: 13%;
   }
 }
 
@@ -55,31 +33,15 @@
   }
 }
 
-@media screen and (max-width: 1210px) {
-  .home-heading-button {
-    width: 14%;
-  }
-}
-
 @media screen and (max-width: 1120px) {
   .home-heading-text {
     font-size: 3rem;
-  }
-
-  .home-heading-button {
-    width: 15%;
   }
 }
 
 @media screen and (max-width: 1050px) {
   .home-heading-text {
     font-size: 2.8rem;
-    top: 18%;
-  }
-
-  .home-heading-button {
-    width: 16%;
-    top: 42%;
   }
 }
 
@@ -93,33 +55,9 @@
   }
 }
 
-@media screen and (max-width: 990px) {
-  .home-heading-button {
-    width: 17%;
-  }
-}
-
-@media screen and (max-width: 921px) {
-  .home-heading-button {
-    width: 18%;
-  }
-}
-
 @media screen and (max-width: 880px) {
   .home-heading-text {
     font-size: 2.5rem;
-    top: 16%;
-  }
-
-  .home-heading-button {
-    top: 35%;
-    width: 19%;
-  }
-}
-
-@media screen and (max-width: 830px) {
-  .home-heading-button {
-    width: 20%;
   }
 }
 
@@ -127,11 +65,6 @@
   .home-heading-text {
     font-size: 2rem;
     width: 60%;
-  }
-
-  .home-heading-button {
-    top: 32%;
-    width: 21%;
   }
 }
 
@@ -145,42 +78,18 @@
   }
 }
 
-@media screen and (max-width: 750px) {
-  .home-heading-button {
-    width: 22%;
-  }
-}
-
 @media screen and (max-width: 720px) {
-  .home-heading-text {
-    font-size: 1.8rem;
-    top: 25%;
-  }
-
   .home-heading-text-normal {
     font-size: 1.3rem;
   }
 
-  .home-heading-button {
-    top: 45%;
+  .home-heading-text {
+    font-size: 1.8rem;
+    top: 29%;
   }
-}
 
-@media screen and (max-width: 700px) {
   .home-heading-button {
-    width: 23%;
-  }
-}
-
-@media screen and (max-width: 670px) {
-  .home-heading-button {
-    width: 24%;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .home-heading-button {
-    width: 25%;
+    top: 51%;
   }
 }
 
@@ -191,10 +100,11 @@
 
   .home-heading-text {
     font-size: 1.6rem;
+    top: 30%;
   }
 
   .home-heading-button {
-    top: 45%;
+    top: 51%;
   }
 }
 
@@ -213,50 +123,8 @@
   }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 370px) {
   .home-heading-button {
-    width: 26%;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  .home-heading-button {
-    width: 27%;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .home-heading-button {
-    width: 28%;
-  }
-}
-
-@media screen and (max-width: 435px) {
-  .home-heading-button {
-    width: 29%;
-  }
-}
-
-@media screen and (max-width: 418px) {
-  .home-heading-button {
-    width: 30%;
-  }
-}
-
-@media screen and (max-width: 405px) {
-  .home-heading-button {
-    width: 31%;
-  }
-}
-
-@media screen and (max-width: 392px) {
-  .home-heading-button {
-    width: 32%;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  .home-heading-button {
-    width: 33%;
+    top: 60%;
   }
 }

@@ -1,24 +1,44 @@
-.custom-btn {
+.link-style {
   font-size: 1.1rem;
   font-weight: bold;
-  background-color: #3fa3b2;
-}
-
-.custom-btn:hover {
-  background-color: #76baa5;
-}
-
-.link-style {
   text-decoration: none;
-  padding: 5px 8px;
+  padding: 4px 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .link-style {
+    font-size: 1rem;
+    padding: 2px 8px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .link-style {
+    padding: 2px 4px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .custom-btn {
+  .link-style {
     font-size: 0.9rem;
   }
+}
 
+@media screen and (max-width: 580px) {
   .link-style {
-    padding: 3px 5px;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .link-style {
+    padding: 0 2px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .link-style {
+    font-size: 0.7rem;
+    padding: 0;
   }
 }

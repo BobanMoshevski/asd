@@ -1,6 +1,6 @@
 .it-consulting-wrapper {
   width: 100%;
-  min-height: 90vh;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -13,22 +13,22 @@
   position: relative;
   width: 100%;
   height: 100%;
-  top: -40px;
-  left: 47%;
+  top: -140px;
+  left: -39%;
 }
 
 .it-consulting-heading {
   position: relative;
   width: 100%;
-  top: -685px;
-  left: 64%;
+  top: -670px;
+  left: 19.5%;
 }
 
 .it-consulting {
-  width: 62%;
-  height: 610px;
-  margin-top: -745px;
-  margin-left: 38%;
+  width: 80%;
+  height: 800px;
+  margin-top: -835px;
+  margin-left: -16%;
 }
 
 .it-consulting-img {
@@ -41,6 +41,370 @@
 .it-consulting-text {
   position: relative;
   width: 35%;
-  top: -380px;
-  left: 10%;
+  top: -410px;
+  left: 55%;
+}
+
+@media screen and (max-width: 1840px) {
+  .it-consulting-heading {
+    left: 17.5%;
+  }
+}
+
+@media screen and (max-width: 1730px) {
+  .it-consulting-figure {
+    width: 125%;
+  }
+
+  .it-consulting-heading {
+    left: 19.5%;
+  }
+
+  .it-consulting {
+    width: 85%;
+    margin-left: -17%;
+  }
+}
+
+@media screen and (max-width: 1610px) {
+  .it-consulting-figure {
+    width: 130%;
+  }
+
+  .it-consulting {
+    width: 90%;
+    margin-left: -18%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .it-consulting-figure {
+    width: 135%;
+  }
+
+  .it-consulting {
+    width: 95%;
+    margin-left: -19%;
+  }
+
+  .it-consulting-text {
+    left: 60%;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .it-consulting-figure {
+    width: 140%;
+  }
+
+  .it-consulting {
+    width: 100%;
+    margin-left: -20%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .it-consulting-figure {
+    width: 145%;
+  }
+
+  .it-consulting {
+    width: 105%;
+    margin-left: -22%;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .it-consulting-figure {
+    width: 150%;
+  }
+
+  .it-consulting {
+    width: 110%;
+    margin-left: -24%;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .it-consulting-heading {
+    left: 17%;
+  }
+
+  .it-consulting {
+    height: 750px;
+    margin-top: -823px;
+    margin-left: -25%;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .it-consulting-heading {
+    left: 15%;
+  }
+
+  .it-consulting {
+    width: 108%;
+    height: 700px;
+    margin-top: -810px;
+    margin-left: -25%;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .it-consulting-heading {
+    left: 13%;
+  }
+
+  .it-consulting {
+    width: 106%;
+    height: 670px;
+    margin-top: -803px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .it-consulting-heading {
+    left: 11%;
+  }
+
+  .it-consulting {
+    height: 640px;
+    margin-top: -795px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .it-consulting-figure {
+    height: 750px;
+  }
+
+  .it-consulting-heading {
+    top: -605px;
+    left: 18%;
+  }
+
+  .it-consulting {
+    height: 600px;
+    margin-top: -725px;
+  }
+
+  .it-consulting-text {
+    top: -330px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .it-consulting-figure {
+    width: 155%;
+  }
+
+  .it-consulting {
+    width: 115%;
+    height: 600px;
+    margin-top: -725px;
+    margin-left: -8%;
+  }
+
+  .it-consulting-text {
+    width: 90%;
+    top: -10px;
+    left: 4%;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .it-consulting-figure {
+    width: 160%;
+  }
+
+  .it-consulting {
+    width: 120%;
+    margin-left: -11%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .it-consulting-figure {
+    width: 165%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .it-consulting-figure {
+    width: 170%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .it-consulting-heading {
+    left: 15%;
+  }
+
+  .it-consulting {
+    width: 125%;
+    margin-left: -13%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .it-consulting-figure {
+    height: 650px;
+  }
+
+  .it-consulting-figure-img {
+    top: -110px;
+  }
+
+  .it-consulting-heading {
+    top: -515px;
+    left: 17%;
+  }
+
+  .it-consulting {
+    height: 550px;
+    margin-top: -625px;
+    margin-left: -14%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .it-consulting-heading {
+    left: 15%;
+  }
+
+  .it-consulting {
+    width: 130%;
+    margin-left: -16%;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .it-consulting-figure {
+    width: 176%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .it-consulting-figure {
+    width: 185%;
+  }
+
+  .it-consulting {
+    width: 135%;
+    margin-left: -19%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .it-consulting-heading {
+    left: 11%;
+  }
+
+  .it-consulting {
+    height: 500px;
+    margin-top: -612px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .it-consulting-heading {
+    left: 8%;
+  }
+
+  .it-consulting {
+    height: 470px;
+    margin-top: -605px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .it-consulting-figure {
+    width: 195%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .it-consulting-figure {
+    width: 205%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .it-consulting-heading {
+    left: 4%;
+  }
+
+  .it-consulting {
+    height: 450px;
+    margin-top: -600px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .it-consulting-figure {
+    width: 215%;
+  }
+
+  .it-consulting {
+    height: 430px;
+    margin-top: -595px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .it-consulting-figure {
+    width: 223%;
+  }
+
+  .it-consulting-heading {
+    left: 2%;
+  }
+
+  .it-consulting {
+    height: 400px;
+    margin-top: -588px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .it-consulting-figure {
+    width: 210%;
+    height: 600px;
+  }
+
+  .it-consulting-heading {
+    top: -483px;
+    left: 8%;
+  }
+
+  .it-consulting {
+    height: 380px;
+    margin-top: -551px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .it-consulting-heading {
+    left: 4%;
+  }
+
+  .it-consulting {
+    width: 145%;
+    margin-left: -23%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .it-consulting-heading {
+    text-align: center;
+    width: 85%;
+    top: -494px;
+    left: 8%;
+  }
+
+  .it-consulting {
+    width: 155%;
+    margin-top: -574px;
+    margin-left: -27%;
+  }
 }

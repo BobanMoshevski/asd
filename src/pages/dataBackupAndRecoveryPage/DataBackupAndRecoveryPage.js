@@ -2,7 +2,13 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Grid } from "@mui/material";
 import { motion } from "framer-motion";
-import { pageVariant } from "../../util/animateVariants/animateVariants";
+import {
+  dataBackupFigureVariant,
+  dataBackupHeadingVariant,
+  dataBackupImageVariant,
+  dataBackupTextVariant,
+  pageVariant,
+} from "../../util/animateVariants/animateVariants";
 import {
   dataBackupAndRecoveryFigure,
   dataBackupAndRecoveryHeading,
@@ -18,6 +24,10 @@ import "./DataBackupAndRecoveryPageStyle.css";
 const DataBackupAndRecoveryPage = () => {
   const { pathname } = useLocation();
   const pageVariants = pageVariant;
+  const figureVariant = dataBackupFigureVariant;
+  const headingVariant = dataBackupHeadingVariant;
+  const imageVariant = dataBackupImageVariant;
+  const textVariant = dataBackupTextVariant;
   const figureDetail = dataBackupAndRecoveryFigure;
   const headingDetail = dataBackupAndRecoveryHeading;
   const imageDetail = dataBackupAndRecoveryImage;
@@ -37,17 +47,27 @@ const DataBackupAndRecoveryPage = () => {
           animate="animate"
           exit="exit"
         >
-          <div className={figureDetail.divClassName}>
+          <motion.div
+            variants={figureVariant}
+            className={figureDetail.divClassName}
+          >
             <FigureComponent figureDetails={figureDetail} />
-          </div>
+          </motion.div>
 
-          <HeadingComponent headingDetails={headingDetail} />
+          <motion.div variants={headingVariant}>
+            <HeadingComponent headingDetails={headingDetail} />
+          </motion.div>
 
-          <div className={imageDetail.divClassName}>
+          <motion.div
+            variants={imageVariant}
+            className={imageDetail.divClassName}
+          >
             <ImageComponent imageDetails={imageDetail} />
-          </div>
+          </motion.div>
 
-          <TextContent textDetails={textDetail} />
+          <motion.div variants={textVariant}>
+            <TextContent textDetails={textDetail} />
+          </motion.div>
         </motion.div>
       </Grid>
     </Grid>

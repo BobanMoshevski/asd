@@ -11,9 +11,9 @@ const OurServicesCards = ({ cardsDetails }) => {
           marginTop: {
             xs: "10px",
             md: "-50px",
-            display: "flex",
-            justifyContent: "center",
           },
+          display: "flex",
+          justifyContent: "center",
         }}
       >
         {cardsDetails.map((cardDetail, index) => (

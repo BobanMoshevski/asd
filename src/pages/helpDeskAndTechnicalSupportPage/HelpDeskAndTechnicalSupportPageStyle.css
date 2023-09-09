@@ -1,6 +1,6 @@
 .help-desk-wrapper {
   width: 100%;
-  min-height: 90vh;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -13,22 +13,22 @@
   position: relative;
   width: 100%;
   height: 100%;
-  top: -190px;
+  top: -160px;
   left: -35%;
 }
 
 .help-desk-heading {
   position: relative;
   width: 100%;
-  top: -690px;
+  top: -660px;
   left: 15%;
 }
 
 .help-desk {
   width: 60%;
   height: 600px;
-  margin-top: -760px;
-  margin-left: -2%;
+  margin-top: -710px;
+  margin-left: -6%;
 }
 
 .help-desk-img {
@@ -43,4 +43,359 @@
   width: 35%;
   top: -380px;
   left: 57%;
+}
+
+@media screen and (max-width: 1840px) {
+  .help-desk-heading {
+    left: 13%;
+  }
+}
+
+@media screen and (max-width: 1750px) {
+  .help-desk-heading {
+    left: 11%;
+  }
+
+  .help-desk {
+    width: 70%;
+    margin-left: -8%;
+  }
+}
+
+@media screen and (max-width: 1660px) {
+  .help-desk-heading {
+    left: 9%;
+  }
+
+  .help-desk {
+    width: 75%;
+    margin-left: -10%;
+  }
+}
+
+@media screen and (max-width: 1580px) {
+  .help-desk-heading {
+    left: 7%;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .help-desk-figure {
+    width: 130%;
+  }
+
+  .help-desk-figure-img {
+    left: -37%;
+  }
+
+  .help-desk-heading {
+    left: 12.5%;
+  }
+}
+
+@media screen and (max-width: 1470px) {
+  .help-desk-heading {
+    left: 10.5%;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .help-desk-heading {
+    left: 8.5%;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .help-desk-heading {
+    left: 6.5%;
+  }
+
+  .help-desk {
+    height: 550px;
+    margin-top: -703px;
+  }
+
+  .help-desk-text {
+    top: -310px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .help-desk-heading {
+    left: 4.5%;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .help-desk-figure {
+    width: 150%;
+  }
+
+  .help-desk-figure-img {
+    left: -38%;
+  }
+
+  .help-desk-heading {
+    left: 9.5%;
+  }
+
+  .help-desk {
+    height: 500px;
+    margin-top: -695px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .help-desk-figure {
+    width: 155%;
+  }
+
+  .help-desk {
+    width: 78%;
+    margin-left: -12%;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .help-desk-figure {
+    width: 160%;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .help-desk-figure {
+    width: 165%;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .help-desk-figure {
+    width: 170%;
+  }
+
+  .help-desk {
+    width: 82%;
+    margin-left: -13%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .help-desk-figure {
+    width: 155%;
+    height: 650px;
+  }
+
+  .help-desk-figure-img {
+    top: -100px;
+    left: -39%;
+  }
+
+  .help-desk-heading {
+    top: -505px;
+    left: 10.5%;
+  }
+
+  .help-desk {
+    width: 90%;
+    margin-top: -548px;
+    margin-left: -17%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .help-desk-figure {
+    width: 160%;
+  }
+
+  .help-desk-figure-img {
+    left: -36%;
+  }
+
+  .help-desk-heading {
+    left: 15%;
+  }
+
+  .help-desk {
+    width: 100%;
+    margin-left: -3%;
+  }
+
+  .help-desk-text {
+    width: 90%;
+    top: 30px;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .help-desk-figure {
+    width: 165%;
+  }
+
+  .help-desk {
+    width: 105%;
+    margin-left: -6%;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .help-desk-figure {
+    width: 170%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .help-desk-figure {
+    width: 175%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .help-desk-heading {
+    left: 12.5%;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .help-desk-heading {
+    left: 9.5%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .help-desk-heading {
+    left: 6.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .help-desk-figure {
+    height: 600px;
+  }
+
+  .help-desk-heading {
+    top: -475px;
+    left: 13.5%;
+  }
+
+  .help-desk {
+    height: 450px;
+    margin-top: -511px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .help-desk-heading {
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .help-desk-heading {
+    left: 7%;
+  }
+
+  .help-desk {
+    height: 400px;
+    margin-top: -505px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .help-desk-figure {
+    width: 182%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .help-desk-figure {
+    width: 189%;
+  }
+
+  .help-desk {
+    height: 380px;
+    margin-top: -501px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .help-desk-figure {
+    width: 195%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .help-desk-heading {
+    left: 3.5%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .help-desk-figure {
+    width: 200%;
+  }
+
+  .help-desk-heading {
+    left: 1.5%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .help-desk-figure {
+    width: 190%;
+  }
+
+  .help-desk-heading {
+    text-align: center;
+    top: -487px;
+    width: 90%;
+    left: 4%;
+  }
+
+  .help-desk {
+    height: 350px;
+    margin-top: -526px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .help-desk-figure {
+    width: 195%;
+  }
+
+  .help-desk-heading {
+    left: 2%;
+  }
+
+  .help-desk {
+    height: 320px;
+    margin-top: -523px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .help-desk-heading {
+    top: -483px;
+    left: 4%;
+  }
+
+  .help-desk {
+    width: 120%;
+    height: 300px;
+    margin-top: -510px;
+    margin-left: -12%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .help-desk-heading {
+    left: 1%;
+  }
+
+  .help-desk {
+    width: 130%;
+    height: 300px;
+    margin-top: -510px;
+    margin-left: -13%;
+  }
 }
