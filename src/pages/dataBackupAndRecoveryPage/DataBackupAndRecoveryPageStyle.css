@@ -383,7 +383,8 @@
 @media screen and (max-width: 390px) {
   .data-backup-heading {
     text-align: center;
-    width: 90%;
+    width: 80%;
+    top: -385px;
     left: 10%;
   }
 

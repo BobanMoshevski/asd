@@ -15,7 +15,7 @@ export const pageVariant = {
 export const networkSetupFigureVariant = {
   initial: {
     opacity: 0,
-    x: 1000,
+    x: 2500,
   },
   animate: { opacity: 1, x: 0, transition: { duration: 2 } },
 };
@@ -23,7 +23,7 @@ export const networkSetupFigureVariant = {
 export const networkSetupHeadingVariant = {
   initial: {
     opacity: 0,
-    x: -2000,
+    x: -3500,
   },
   animate: { opacity: 1, x: 0, transition: { duration: 2 } },
 };
@@ -31,7 +31,7 @@ export const networkSetupHeadingVariant = {
 export const networkSetupImageVariant = {
   initial: {
     opacity: 0,
-    x: 1200,
+    x: 3000,
   },
   animate: { opacity: 1, x: 0, transition: { duration: 2 } },
 };
@@ -39,7 +39,7 @@ export const networkSetupImageVariant = {
 export const networkSetupTextVariant = {
   initial: {
     opacity: 0,
-    x: -1000,
+    x: -2500,
   },
   animate: { opacity: 1, x: 0, transition: { duration: 2 } },
 };
@@ -48,7 +48,7 @@ export const networkSetupTextVariant = {
 export const helpDeskFigureVariant = {
   initial: {
     opacity: 0,
-    x: -1000,
+    x: -2500,
   },
   animate: { opacity: 1, x: 0, transition: { duration: 2 } },
 };
@@ -56,7 +56,7 @@ export const helpDeskFigureVariant = {
 export const helpDeskHeadingVariant = {
   initial: {
     opacity: 0,
-    x: 2000,
+    x: 3500,
   },
   animate: { opacity: 1, x: 0, transition: { duration: 2 } },
 };
@@ -64,7 +64,7 @@ export const helpDeskHeadingVariant = {
 export const helpDeskImageVariant = {
   initial: {
     opacity: 0,
-    x: -1200,
+    x: -3000,
   },
   animate: { opacity: 1, x: 0, transition: { duration: 2 } },
 };
@@ -72,7 +72,7 @@ export const helpDeskImageVariant = {
 export const helpDeskTextVariant = {
   initial: {
     opacity: 0,
-    x: 1000,
+    x: 2500,
   },
   animate: { opacity: 1, x: 0, transition: { duration: 2 } },
 };
@@ -81,7 +81,7 @@ export const helpDeskTextVariant = {
 export const dataBackupFigureVariant = {
   initial: {
     opacity: 0,
-    y: 1000,
+    y: 2500,
   },
   animate: { opacity: 1, y: 0, transition: { duration: 2 } },
 };
@@ -89,7 +89,7 @@ export const dataBackupFigureVariant = {
 export const dataBackupHeadingVariant = {
   initial: {
     opacity: 0,
-    y: -1000,
+    y: -2500,
   },
   animate: { opacity: 1, y: 0, transition: { duration: 2 } },
 };
@@ -97,7 +97,7 @@ export const dataBackupHeadingVariant = {
 export const dataBackupImageVariant = {
   initial: {
     opacity: 0,
-    y: 1000,
+    y: 2500,
   },
   animate: { opacity: 1, y: 0, transition: { duration: 2 } },
 };
@@ -105,7 +105,7 @@ export const dataBackupImageVariant = {
 export const dataBackupTextVariant = {
   initial: {
     opacity: 0,
-    y: -1000,
+    y: -2500,
   },
   animate: { opacity: 1, y: 0, transition: { duration: 2 } },
 };
@@ -114,7 +114,7 @@ export const dataBackupTextVariant = {
 export const itConsultingFigureVariant = {
   initial: {
     opacity: 0,
-    y: -1000,
+    y: -2500,
   },
   animate: { opacity: 1, y: 0, transition: { duration: 2 } },
 };
@@ -122,7 +122,7 @@ export const itConsultingFigureVariant = {
 export const itConsultingHeadingVariant = {
   initial: {
     opacity: 0,
-    y: 1000,
+    y: 2500,
   },
   animate: { opacity: 1, y: 0, transition: { duration: 2 } },
 };
@@ -130,7 +130,7 @@ export const itConsultingHeadingVariant = {
 export const itConsultingImageVariant = {
   initial: {
     opacity: 0,
-    y: -1000,
+    y: -2500,
   },
   animate: { opacity: 1, y: 0, transition: { duration: 2 } },
 };
@@ -138,7 +138,40 @@ export const itConsultingImageVariant = {
 export const itConsultingTextVariant = {
   initial: {
     opacity: 0,
-    y: 1000,
+    y: 2500,
+  },
+  animate: { opacity: 1, y: 0, transition: { duration: 2 } },
+};
+
+// Web design animate
+export const webDesignFigureVariant = {
+  initial: {
+    opacity: 0,
+    y: -2500,
+  },
+  animate: { opacity: 1, y: 0, transition: { duration: 2 } },
+};
+
+export const webDesignHeadingVariant = {
+  initial: {
+    opacity: 0,
+    y: -2500,
+  },
+  animate: { opacity: 1, y: 0, transition: { duration: 2 } },
+};
+
+export const webDesignImageVariant = {
+  initial: {
+    opacity: 0,
+    y: -3000,
+  },
+  animate: { opacity: 1, y: 0, transition: { duration: 2 } },
+};
+
+export const webDesignTextVariant = {
+  initial: {
+    opacity: 0,
+    y: -4500,
   },
   animate: { opacity: 1, y: 0, transition: { duration: 2 } },
 };
