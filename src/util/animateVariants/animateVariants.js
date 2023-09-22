@@ -1,13 +1,15 @@
 export const pageVariant = {
   initial: {
     opacity: 0,
+    x: "100%",
   },
   animate: {
     opacity: 1,
-    transition: { when: "beforeChildren" },
+    x: 0,
+    transition: { when: "beforeChildren", duration: 0.3, delay: 0.2 },
   },
   exit: {
-    opacity: 1,
+    opacity: 0,
   },
 };
 
@@ -155,7 +157,7 @@ export const webDesignFigureVariant = {
 export const webDesignHeadingVariant = {
   initial: {
     opacity: 0,
-    y: -2500,
+    y: -3000,
   },
   animate: { opacity: 1, y: 0, transition: { duration: 2 } },
 };
@@ -163,7 +165,7 @@ export const webDesignHeadingVariant = {
 export const webDesignImageVariant = {
   initial: {
     opacity: 0,
-    y: -3000,
+    y: -3500,
   },
   animate: { opacity: 1, y: 0, transition: { duration: 2 } },
 };
@@ -174,4 +176,70 @@ export const webDesignTextVariant = {
     y: -4500,
   },
   animate: { opacity: 1, y: 0, transition: { duration: 2 } },
+};
+
+// Graphic design animate
+export const graphicDesignFigureVariant = {
+  initial: {
+    opacity: 0,
+    y: 4500,
+  },
+  animate: { opacity: 1, y: 0, transition: { duration: 2 } },
+};
+
+export const graphicDesignHeadingVariant = {
+  initial: {
+    opacity: 0,
+    y: 3500,
+  },
+  animate: { opacity: 1, y: 0, transition: { duration: 2 } },
+};
+
+export const graphicDesignImageVariant = {
+  initial: {
+    opacity: 0,
+    y: 3000,
+  },
+  animate: { opacity: 1, y: 0, transition: { duration: 2 } },
+};
+
+export const graphicDesignTextVariant = {
+  initial: {
+    opacity: 0,
+    y: 2500,
+  },
+  animate: { opacity: 1, y: 0, transition: { duration: 2 } },
+};
+
+// UI/UX design animate
+export const uiUxDesignFigureVariant = {
+  initial: {
+    opacity: 0,
+    x: -2500,
+  },
+  animate: { opacity: 1, x: 0, transition: { duration: 2 } },
+};
+
+export const uiUxDesignHeadingVariant = {
+  initial: {
+    opacity: 0,
+    y: -2500,
+  },
+  animate: { opacity: 1, y: 0, transition: { duration: 2 } },
+};
+
+export const uiUxDesignImageVariant = {
+  initial: {
+    opacity: 0,
+    y: 3000,
+  },
+  animate: { opacity: 1, y: 0, transition: { duration: 2 } },
+};
+
+export const uiUxDesignTextVariant = {
+  initial: {
+    opacity: 0,
+    x: 2500,
+  },
+  animate: { opacity: 1, x: 0, transition: { duration: 2 } },
 };

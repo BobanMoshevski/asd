@@ -11,6 +11,10 @@ body {
   font-style: normal;
 }
 
+.bg-linear-color {
+  background: linear-gradient(0deg, rgba(25, 25, 25, 0.1), rgba(0, 0, 0, 1));
+}
+
 .font-color {
   color: #fff;
 }

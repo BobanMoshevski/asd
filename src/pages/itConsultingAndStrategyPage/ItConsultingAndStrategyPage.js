@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Grid } from "@mui/material";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+
 import {
   itConsultingFigureVariant,
   itConsultingHeadingVariant,
@@ -15,6 +16,7 @@ import {
   itConsultingAndStrategyImage,
   itConsultingAndStrategyText,
 } from "../../util/data/dataDetails";
+
 import FigureComponent from "../../components/figureComponent/FigureComponent";
 import HeadingComponent from "../../components/headingComponent/HeadingComponent";
 import ImageComponent from "../../components/imageComponent/ImageComponent";
@@ -40,35 +42,50 @@ const ItConsultingAndStrategyPage = () => {
   return (
     <Grid container>
       <Grid item xs={12}>
-        <motion.div
-          className="it-consulting-wrapper"
-          variants={pageVariants}
-          initial="initial"
-          animate="animate"
-          exit="exit"
-        >
+        <AnimatePresence>
           <motion.div
-            variants={figureVariant}
-            className={figureDetail.divClassName}
+            key="it"
+            className="it-consulting-wrapper bg-linear-color"
+            variants={pageVariants}
+            initial="initial"
+            animate="animate"
+            exit="exit"
           >
-            <FigureComponent figureDetails={figureDetail} />
-          </motion.div>
+            <motion.div
+              variants={figureVariant}
+              initial="initial"
+              animate="animate"
+              className={figureDetail.divClassName}
+            >
+              <FigureComponent figureDetails={figureDetail} />
+            </motion.div>
 
-          <motion.div variants={headingVariant}>
-            <HeadingComponent headingDetails={headingDetail} />
-          </motion.div>
+            <motion.div
+              variants={headingVariant}
+              initial="initial"
+              animate="animate"
+            >
+              <HeadingComponent headingDetails={headingDetail} />
+            </motion.div>
 
-          <motion.div
-            variants={imageVariant}
-            className={imageDetail.divClassName}
-          >
-            <ImageComponent imageDetails={imageDetail} />
-          </motion.div>
+            <motion.div
+              className={imageDetail.divClassName}
+              variants={imageVariant}
+              initial="initial"
+              animate="animate"
+            >
+              <ImageComponent imageDetails={imageDetail} />
+            </motion.div>
 
-          <motion.div variants={textVariant}>
-            <TextContent textDetails={textDetail} />
+            <motion.div
+              variants={textVariant}
+              initial="initial"
+              animate="animate"
+            >
+              <TextContent textDetails={textDetail} />
+            </motion.div>
           </motion.div>
-        </motion.div>
+        </AnimatePresence>
       </Grid>
     </Grid>
   );

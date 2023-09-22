@@ -1,11 +1,11 @@
 .graphic-design-wrapper {
   width: 100%;
-  min-height: 90vh;
+  height: 100vh;
   overflow: hidden;
 }
 
 .graphic-design-figure {
-  width: 115%;
+  width: 145%;
   height: 850px;
 }
 
@@ -13,22 +13,22 @@
   position: relative;
   width: 100%;
   height: 100%;
-  top: -40px;
-  left: 47%;
+  top: -330px;
+  left: 10%;
 }
 
 .graphic-design-heading {
   position: relative;
   width: 100%;
-  top: -685px;
-  left: 64%;
+  top: -687px;
+  left: 48%;
 }
 
 .graphic-design {
-  width: 62%;
-  height: 610px;
-  margin-top: -745px;
-  margin-left: 38%;
+  width: 80%;
+  height: 700px;
+  margin-top: -725px;
+  margin-left: 30%;
 }
 
 .graphic-design-img {
@@ -42,5 +42,189 @@
   position: relative;
   width: 35%;
   top: -380px;
-  left: 10%;
+  left: 6%;
+}
+
+@media screen and (max-width: 1660px) {
+  .graphic-design {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .graphic-design {
+    width: 88%;
+    margin-left: 25%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .graphic-design {
+    height: 650px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .graphic-design {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .graphic-design {
+    height: 550px;
+    margin-top: -705px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .graphic-design {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .graphic-design-figure {
+    height: 750px;
+  }
+
+  .graphic-design-figure-img {
+    top: -280px;
+  }
+
+  .graphic-design-heading {
+    top: -590px;
+  }
+
+  .graphic-design {
+    width: 95%;
+    height: 490px;
+    margin-top: -610px;
+    margin-left: 20%;
+  }
+
+  .graphic-design-text {
+    left: 4%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .graphic-design {
+    width: 122%;
+    height: 530px;
+    margin-top: -610px;
+    margin-left: -10%;
+  }
+
+  .graphic-design-text {
+    width: 90%;
+    top: -20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .graphic-design-figure-img {
+    top: -300px;
+  }
+
+  .graphic-design-heading {
+    top: -610px;
+  }
+
+  .graphic-design {
+    margin-top: -635px;
+    margin-left: -11%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .graphic-design {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .graphic-design {
+    width: 130%;
+    margin-left: -15%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .graphic-design {
+    width: 135%;
+    margin-left: -19%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .graphic-design {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .graphic-design-figure {
+    width: 155%;
+  }
+
+  .graphic-design-figure-img {
+    left: 1%;
+  }
+
+  .graphic-design-heading {
+    left: 40%;
+  }
+
+  .graphic-design {
+    width: 140%;
+    height: 420px;
+    margin-top: -625px;
+    margin-left: -23%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .graphic-design-figure {
+    width: 180%;
+  }
+
+  .graphic-design-figure-img {
+    left: -7%;
+  }
+
+  .graphic-design-heading {
+    left: 32%;
+  }
+
+  .graphic-design {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .graphic-design-figure {
+    height: 600px;
+  }
+
+  .graphic-design-figure-img {
+    top: -220px;
+  }
+
+  .graphic-design-heading {
+    top: -470px;
+  }
+
+  .graphic-design {
+    width: 160%;
+    height: 380px;
+    margin-top: -485px;
+    margin-left: -31%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .graphic-design {
+    height: 350px;
+  }
 }

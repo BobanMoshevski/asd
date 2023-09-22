@@ -1,5 +1,6 @@
 import { RouterProvider } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
+
 import { router } from "../../util/routes/router";
 
 const AnimateRoutes = () => {
@@ -7,7 +8,7 @@ const AnimateRoutes = () => {
 
   return (
     <AnimatePresence>
-      <RouterProvider router={routes} />
+      <RouterProvider key="router" router={routes} />
     </AnimatePresence>
   );
 };

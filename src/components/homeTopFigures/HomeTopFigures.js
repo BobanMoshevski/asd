@@ -6,7 +6,7 @@ const HomeTopFigures = () => {
   const topFigures = homeTopFigures;
 
   return (
-    <div id="home" className="figures-animate">
+    <div id="home" className="figures-animate bg-linear-color">
       <HomeHeading />
 
       {topFigures.map((figure, index) => (

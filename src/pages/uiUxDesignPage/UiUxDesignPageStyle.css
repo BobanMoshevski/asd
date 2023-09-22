@@ -1,6 +1,6 @@
 .ui-ux-wrapper {
   width: 100%;
-  min-height: 90vh;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -13,22 +13,22 @@
   position: relative;
   width: 100%;
   height: 100%;
-  top: -40px;
-  left: 47%;
+  top: -20px;
+  left: -60%;
 }
 
 .ui-ux-design-heading {
   position: relative;
   width: 100%;
   top: -685px;
-  left: 64%;
+  left: 17%;
 }
 
 .ui-ux-design {
-  width: 62%;
-  height: 610px;
-  margin-top: -745px;
-  margin-left: 38%;
+  width: 85%;
+  height: 700px;
+  margin-top: -790px;
+  margin-left: -12%;
 }
 
 .ui-ux-design-img {
@@ -41,6 +41,260 @@
 .ui-ux-design-text {
   position: relative;
   width: 35%;
-  top: -380px;
-  left: 10%;
+  top: -470px;
+  left: 60%;
+}
+
+@media screen and (max-width: 1750px) {
+  .ui-ux-design-figure {
+    width: 120%;
+  }
+
+  .ui-ux-design {
+    width: 90%;
+    margin-left: -14%;
+  }
+}
+
+@media screen and (max-width: 1580px) {
+  .ui-ux-design-figure {
+    width: 125%;
+  }
+
+  .ui-ux-design {
+    width: 95%;
+    margin-left: -14%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .ui-ux-design-figure {
+    width: 145%;
+  }
+
+  .ui-ux-design-figure-img {
+    left: -62%;
+  }
+
+  .ui-ux-design {
+    height: 650px;
+    margin-top: -780px;
+    margin-left: -16%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .ui-ux-design-figure {
+    width: 150%;
+  }
+
+  .ui-ux-design-figure-img {
+    left: -62.5%;
+  }
+
+  .ui-ux-design-heading {
+    left: 15%;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .ui-ux-design-figure {
+    width: 155%;
+  }
+
+  .ui-ux-design {
+    height: 600px;
+    margin-top: -775px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .ui-ux-design-figure {
+    width: 165%;
+  }
+
+  .ui-ux-design {
+    height: 550px;
+    margin-top: -765px;
+  }
+
+  .ui-ux-design-text {
+    top: -450px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .ui-ux-design-figure {
+    height: 700px;
+  }
+
+  .ui-ux-design-figure-img {
+    top: 10px;
+    left: -64%;
+  }
+
+  .ui-ux-design-heading {
+    top: -540px;
+    left: 15%;
+  }
+
+  .ui-ux-design {
+    height: 500px;
+    margin-top: -610px;
+    margin-left: -18%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .ui-ux-design {
+    width: 100%;
+    height: 450px;
+  }
+
+  .ui-ux-design-text {
+    width: 90%;
+    top: 5px;
+    left: 4%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .ui-ux-design-figure-img {
+    top: -20px;
+  }
+
+  .ui-ux-design-heading {
+    top: -570px;
+    left: 13%;
+  }
+
+  .ui-ux-design {
+    width: 110%;
+    margin-top: -630px;
+    margin-left: -22%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .ui-ux-design-figure {
+    width: 195%;
+  }
+
+  .ui-ux-design-figure-img {
+    left: -66%;
+  }
+
+  .ui-ux-design {
+    width: 115%;
+    margin-left: -24%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ui-ux-design-figure {
+    height: 650px;
+  }
+
+  .ui-ux-design-figure-img {
+    top: -10px;
+  }
+
+  .ui-ux-design-heading {
+    top: -515px;
+  }
+
+  .ui-ux-design {
+    margin-top: -580px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .ui-ux-design-heading {
+    left: 10%;
+  }
+
+  .ui-ux-design {
+    height: 400px;
+    margin-top: -575px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ui-ux-design-figure {
+    width: 265%;
+  }
+
+  .ui-ux-design-heading {
+    left: 20%;
+  }
+
+  .ui-ux-design {
+    height: 350px;
+    margin-top: -565px;
+    margin-left: -22%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .ui-ux-design-figure {
+    width: 275%;
+  }
+
+  .ui-ux-design {
+    width: 130%;
+    height: 320px;
+    margin-top: -555px;
+    margin-left: -25%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .ui-ux-wrapper {
+    height: 105vh;
+  }
+
+  .ui-ux-design-heading {
+    left: 15%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .ui-ux-wrapper {
+    height: 100vh;
+  }
+
+  .ui-ux-design-figure {
+    height: 550px;
+  }
+
+  .ui-ux-design-figure-img {
+    top: 5px;
+  }
+
+  .ui-ux-design-heading {
+    top: -425px;
+  }
+
+  .ui-ux-design {
+    margin-top: -470px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .ui-ux-design {
+    width: 150%;
+    height: 300px;
+    margin-top: -465px;
+    margin-left: -31%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .ui-ux-wrapper {
+    height: 105vh;
+  }
+
+  .ui-ux-design-figure {
+    width: 295%;
+  }
 }
